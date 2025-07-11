@@ -1,0 +1,155 @@
+2025-05-26 15:57:49,305 INFO:Configuration loaded from config\config.json
+2025-05-26 15:57:49,429 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-26 15:57:49,429 DEBUG:Looking up time zone info from registry
+2025-05-26 15:57:49,432 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-26 15:57:49,433 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-26 15:57:49,433 INFO:Scheduler started
+2025-05-26 15:57:49,433 DEBUG:Looking for jobs to run
+2025-05-26 15:57:49,433 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-26 15:57:49,433 DEBUG:Next wakeup is due at 2025-05-26 16:57:49.432066-04:00 (in 3599.998763 seconds)
+2025-05-26 15:57:49,438 DEBUG:Using selector: SelectSelector
+2025-05-26 15:57:49,485 INFO:Started server process [4880]
+2025-05-26 15:57:49,485 INFO:Waiting for application startup.
+2025-05-26 15:57:49,485 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-26 15:57:49,486 INFO:Application startup complete.
+2025-05-26 15:57:49,486 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-05-26 15:57:58,967 INFO:192.168.110.94:57704 - "GET /login HTTP/1.1" 405
+2025-05-26 15:58:13,430 INFO:192.168.110.94:59208 - "GET /login?fecha_inicio=2025-04-26&fecha_fin=2025-05-26 HTTP/1.1" 405
+2025-05-26 16:11:19,618 INFO:192.168.110.94:59470 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:11:19,738 ERROR:2025-05-26 16:11:19,737 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:11:19,737 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:11:19,739 INFO:192.168.110.94:59470 - "POST /login HTTP/1.1" 200
+2025-05-26 16:11:26,458 INFO:192.168.110.94:59478 - "OPTIONS /consultas HTTP/1.1" 404
+2025-05-26 16:12:26,677 INFO:192.168.110.94:59487 - "OPTIONS /consultas HTTP/1.1" 404
+2025-05-26 16:13:43,773 INFO:192.168.110.94:59504 - "OPTIONS /consultas HTTP/1.1" 404
+2025-05-26 16:13:45,081 INFO:192.168.110.94:59504 - "OPTIONS /consultas HTTP/1.1" 404
+2025-05-26 16:23:06,443 INFO:192.168.110.94:59758 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:23:06,658 ERROR:2025-05-26 16:23:06,657 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:23:06,657 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:23:06,658 INFO:192.168.110.94:59758 - "POST /login HTTP/1.1" 200
+2025-05-26 16:23:10,794 INFO:192.168.110.94:59758 - "OPTIONS /EF HTTP/1.1" 200
+2025-05-26 16:23:10,810 INFO:192.168.110.94:59758 - "POST /EF HTTP/1.1" 405
+2025-05-26 16:25:52,736 INFO:192.168.110.94:59793 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:25:52,822 ERROR:2025-05-26 16:25:52,822 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:25:52,822 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:25:52,823 INFO:192.168.110.94:59793 - "POST /login HTTP/1.1" 200
+2025-05-26 16:36:03,010 INFO:192.168.110.94:64223 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:36:03,094 ERROR:2025-05-26 16:36:03,094 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:36:03,094 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:36:03,096 INFO:192.168.110.94:64223 - "POST /login HTTP/1.1" 200
+2025-05-26 16:36:06,672 INFO:192.168.110.94:64223 - "OPTIONS /EF?fecha_inicio=2025-04-26&fecha_fin=2025-05-26&rnc=123456789 HTTP/1.1" 200
+2025-05-26 16:36:06,687 ERROR:2025-05-26 16:36:06,687 - INFO - Token utilizado por el usuario: admin
+2025-05-26 16:36:06,687 INFO:Token utilizado por el usuario: admin
+2025-05-26 16:36:06,687 ERROR:2025-05-26 16:36:06,687 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:36:06,687 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:36:07,021 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-26 16:36:07,023 INFO:192.168.110.94:64223 - "GET /EF?fecha_inicio=2025-04-26&fecha_fin=2025-05-26&rnc=123456789 HTTP/1.1" 400
+2025-05-26 16:44:53,640 INFO:127.0.0.1:59578 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:44:53,685 ERROR:2025-05-26 16:44:53,684 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:44:53,684 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:44:53,685 INFO:127.0.0.1:59578 - "POST /login HTTP/1.1" 200
+2025-05-26 16:49:55,243 INFO:127.0.0.1:50633 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:49:55,284 ERROR:2025-05-26 16:49:55,284 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:49:55,284 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:49:55,285 INFO:127.0.0.1:50633 - "POST /login HTTP/1.1" 200
+2025-05-26 16:49:55,289 INFO:127.0.0.1:50633 - "OPTIONS /EF HTTP/1.1" 200
+2025-05-26 16:49:55,293 ERROR:2025-05-26 16:49:55,293 - INFO - Token utilizado por el usuario: admin
+2025-05-26 16:49:55,293 INFO:Token utilizado por el usuario: admin
+2025-05-26 16:49:55,293 ERROR:2025-05-26 16:49:55,293 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:49:55,293 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:49:55,295 ERROR:Error de validación: Los parámetros 'fecha_inicio' y 'fecha_fin' son obligatorios
+2025-05-26 16:49:55,295 INFO:127.0.0.1:50633 - "GET /EF HTTP/1.1" 400
+2025-05-26 16:51:54,948 INFO:127.0.0.1:53577 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:51:54,990 ERROR:2025-05-26 16:51:54,990 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:51:54,990 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:51:54,991 INFO:127.0.0.1:53577 - "POST /login HTTP/1.1" 200
+2025-05-26 16:51:54,995 INFO:127.0.0.1:53577 - "OPTIONS /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 200
+2025-05-26 16:51:55,000 ERROR:2025-05-26 16:51:55,000 - INFO - Token utilizado por el usuario: admin
+2025-05-26 16:51:55,000 INFO:Token utilizado por el usuario: admin
+2025-05-26 16:51:55,000 ERROR:2025-05-26 16:51:55,000 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:51:55,000 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:51:55,259 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-26 16:51:55,260 INFO:127.0.0.1:53577 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 400
+2025-05-26 16:52:07,212 INFO:127.0.0.1:53857 - "GET / HTTP/1.1" 200
+2025-05-26 16:52:22,729 INFO:127.0.0.1:54337 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 401
+2025-05-26 16:54:03,043 INFO:127.0.0.1:56715 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:54:03,076 ERROR:2025-05-26 16:54:03,075 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:54:03,075 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:54:03,076 INFO:127.0.0.1:56715 - "POST /login HTTP/1.1" 200
+2025-05-26 16:54:03,080 INFO:127.0.0.1:56715 - "OPTIONS /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 200
+2025-05-26 16:54:03,084 ERROR:2025-05-26 16:54:03,084 - INFO - Token utilizado por el usuario: admin
+2025-05-26 16:54:03,084 INFO:Token utilizado por el usuario: admin
+2025-05-26 16:54:03,084 ERROR:2025-05-26 16:54:03,084 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:54:03,084 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:54:03,301 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-26 16:54:03,303 INFO:127.0.0.1:56715 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 400
+2025-05-26 16:57:49,435 DEBUG:Looking for jobs to run
+2025-05-26 16:57:49,437 INFO:Running job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 16:57:49 -04)" (scheduled at 2025-05-26 16:57:49.432066-04:00)
+2025-05-26 16:57:49,438 DEBUG:Next wakeup is due at 2025-05-26 17:57:49.432066-04:00 (in 3599.993251 seconds)
+2025-05-26 16:57:49,451 INFO:Tokens eliminados: 10
+2025-05-26 16:57:49,451 INFO:Job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 17:57:49 -04)" executed successfully
+2025-05-26 16:58:06,954 INFO:127.0.0.1:62448 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 16:58:06,979 ERROR:2025-05-26 16:58:06,979 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:58:06,979 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 16:58:06,980 INFO:127.0.0.1:62448 - "POST /login HTTP/1.1" 200
+2025-05-26 16:58:06,985 INFO:127.0.0.1:62448 - "OPTIONS /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 200
+2025-05-26 16:58:06,989 ERROR:2025-05-26 16:58:06,989 - INFO - Token utilizado por el usuario: admin
+2025-05-26 16:58:06,989 INFO:Token utilizado por el usuario: admin
+2025-05-26 16:58:06,989 ERROR:2025-05-26 16:58:06,989 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:58:06,989 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 16:58:07,200 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-26 16:58:07,201 INFO:127.0.0.1:62448 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 400
+2025-05-26 17:02:51,598 INFO:127.0.0.1:53174 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 17:02:51,693 ERROR:2025-05-26 17:02:51,692 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:02:51,692 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:02:51,695 INFO:127.0.0.1:53174 - "POST /login HTTP/1.1" 200
+2025-05-26 17:10:06,446 INFO:127.0.0.1:63529 - "OPTIONS /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-26 17:10:06,449 INFO:127.0.0.1:63529 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 401
+2025-05-26 17:10:07,299 INFO:127.0.0.1:63529 - "OPTIONS /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-26 17:10:07,301 INFO:127.0.0.1:63529 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 401
+2025-05-26 17:10:07,500 INFO:127.0.0.1:63529 - "OPTIONS /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-26 17:10:07,504 INFO:127.0.0.1:63529 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 401
+2025-05-26 17:10:07,648 INFO:127.0.0.1:63529 - "OPTIONS /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-26 17:10:07,652 INFO:127.0.0.1:63529 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 401
+2025-05-26 17:14:43,926 INFO:192.168.110.94:64707 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 17:14:44,017 ERROR:2025-05-26 17:14:44,017 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:14:44,017 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:14:44,018 INFO:192.168.110.94:64707 - "POST /login HTTP/1.1" 200
+2025-05-26 17:14:47,788 INFO:192.168.110.94:64707 - "OPTIONS /EF?rnc=123456789&fecha_inicio=2025-04-26&fecha_fin=2025-05-26 HTTP/1.1" 200
+2025-05-26 17:14:47,800 ERROR:2025-05-26 17:14:47,799 - INFO - Token utilizado por el usuario: admin
+2025-05-26 17:14:47,799 INFO:Token utilizado por el usuario: admin
+2025-05-26 17:14:47,800 ERROR:2025-05-26 17:14:47,800 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:14:47,800 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:14:48,067 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-26 17:14:48,068 INFO:192.168.110.94:64707 - "GET /EF?rnc=123456789&fecha_inicio=2025-04-26&fecha_fin=2025-05-26 HTTP/1.1" 400
+2025-05-26 17:16:41,863 INFO:192.168.110.94:64742 - "OPTIONS /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-01-31 HTTP/1.1" 200
+2025-05-26 17:16:41,930 ERROR:2025-05-26 17:16:41,930 - INFO - Token utilizado por el usuario: admin
+2025-05-26 17:16:41,930 INFO:Token utilizado por el usuario: admin
+2025-05-26 17:16:41,931 ERROR:2025-05-26 17:16:41,930 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:16:41,930 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:16:42,385 INFO:192.168.110.94:64742 - "GET /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-01-31 HTTP/1.1" 200
+2025-05-26 17:37:59,402 INFO:192.168.110.94:65171 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 17:37:59,605 ERROR:2025-05-26 17:37:59,604 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:37:59,604 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:37:59,605 INFO:192.168.110.94:65171 - "POST /login HTTP/1.1" 200
+2025-05-26 17:38:16,945 INFO:192.168.110.94:65180 - "OPTIONS /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-01-26 HTTP/1.1" 200
+2025-05-26 17:38:17,015 ERROR:2025-05-26 17:38:17,015 - INFO - Token utilizado por el usuario: admin
+2025-05-26 17:38:17,015 INFO:Token utilizado por el usuario: admin
+2025-05-26 17:38:17,015 ERROR:2025-05-26 17:38:17,015 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:38:17,015 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:38:17,484 INFO:192.168.110.94:65180 - "GET /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-01-26 HTTP/1.1" 200
+2025-05-26 17:49:30,282 INFO:192.168.110.94:65364 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 17:49:30,493 ERROR:2025-05-26 17:49:30,493 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:49:30,493 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 17:49:30,494 INFO:192.168.110.94:65364 - "POST /login HTTP/1.1" 200
+2025-05-26 17:49:41,600 INFO:192.168.110.94:65373 - "OPTIONS /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-05-26 HTTP/1.1" 200
+2025-05-26 17:49:41,658 ERROR:2025-05-26 17:49:41,657 - INFO - Token utilizado por el usuario: admin
+2025-05-26 17:49:41,657 INFO:Token utilizado por el usuario: admin
+2025-05-26 17:49:41,658 ERROR:2025-05-26 17:49:41,658 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:49:41,658 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-26 17:49:42,153 INFO:192.168.110.94:65373 - "GET /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-05-26 HTTP/1.1" 200
+2025-05-26 17:57:49,436 DEBUG:Looking for jobs to run
+2025-05-26 17:57:49,437 DEBUG:Next wakeup is due at 2025-05-26 18:57:49.432066-04:00 (in 3599.994911 seconds)
+2025-05-26 17:57:49,437 INFO:Running job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 18:57:49 -04)" (scheduled at 2025-05-26 17:57:49.432066-04:00)
+2025-05-26 17:57:49,461 INFO:Tokens eliminados: 3
+2025-05-26 17:57:49,462 INFO:Job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 18:57:49 -04)" executed successfully

@@ -1,0 +1,69 @@
+2025-05-26 12:20:01,970 INFO:Configuration loaded from config\config.json
+2025-05-26 12:20:02,122 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-26 12:20:02,122 DEBUG:Looking up time zone info from registry
+2025-05-26 12:20:02,125 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-26 12:20:02,125 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-26 12:20:02,125 INFO:Scheduler started
+2025-05-26 12:20:02,126 DEBUG:Looking for jobs to run
+2025-05-26 12:20:02,126 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-26 12:20:02,126 DEBUG:Next wakeup is due at 2025-05-26 13:20:02.125648-04:00 (in 3599.998972 seconds)
+2025-05-26 12:20:02,131 DEBUG:Using selector: SelectSelector
+2025-05-26 12:20:02,273 INFO:Started server process [27084]
+2025-05-26 12:20:02,273 INFO:Waiting for application startup.
+2025-05-26 12:20:02,273 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-26 12:20:02,274 INFO:Application startup complete.
+2025-05-26 12:20:02,274 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-05-26 13:20:04,101 DEBUG:Looking for jobs to run
+2025-05-26 13:20:04,102 WARNING:Run time of job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 13:20:02 -04)" was missed by 0:00:01.976424
+2025-05-26 13:20:04,102 DEBUG:Next wakeup is due at 2025-05-26 14:20:02.125648-04:00 (in 3598.023576 seconds)
+2025-05-26 14:19:34,213 INFO:192.168.110.94:54230 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 14:19:34,354 INFO:192.168.110.94:54230 - "POST /login HTTP/1.1" 401
+2025-05-26 14:20:02,139 DEBUG:Looking for jobs to run
+2025-05-26 14:20:02,139 DEBUG:Next wakeup is due at 2025-05-26 15:20:02.125648-04:00 (in 3599.986289 seconds)
+2025-05-26 14:20:02,139 INFO:Running job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 15:20:02 -04)" (scheduled at 2025-05-26 14:20:02.125648-04:00)
+2025-05-26 14:20:02,148 INFO:Tokens eliminados: 1
+2025-05-26 14:20:02,148 INFO:Job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 15:20:02 -04)" executed successfully
+2025-05-26 14:20:24,542 INFO:192.168.110.94:54239 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 14:20:24,614 INFO:192.168.110.94:54239 - "POST /login HTTP/1.1" 401
+2025-05-26 14:25:48,870 INFO:192.168.110.94:56791 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 14:25:48,956 ERROR:2025-05-26 14:25:48,955 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 14:25:48,955 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 14:25:48,956 INFO:192.168.110.94:56791 - "POST /login HTTP/1.1" 200
+2025-05-26 14:26:36,516 INFO:192.168.110.94:56804 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 14:26:36,580 INFO:192.168.110.94:56804 - "POST /login HTTP/1.1" 401
+2025-05-26 14:32:07,645 INFO:192.168.110.94:56908 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 14:32:07,751 ERROR:2025-05-26 14:32:07,750 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 14:32:07,750 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 14:32:07,753 INFO:192.168.110.94:56908 - "POST /login HTTP/1.1" 200
+2025-05-26 14:43:29,564 INFO:192.168.110.94:57011 - "OPTIONS /login HTTP/1.1" 200
+2025-05-26 14:43:29,666 ERROR:2025-05-26 14:43:29,666 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 14:43:29,666 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 14:43:29,667 INFO:192.168.110.94:57011 - "POST /login HTTP/1.1" 200
+2025-05-26 14:43:33,398 INFO:192.168.110.94:57011 - "GET /login?fecha_inicio=2025-04-26&fecha_fin=2025-05-26 HTTP/1.1" 405
+2025-05-26 15:20:02,139 DEBUG:Looking for jobs to run
+2025-05-26 15:20:02,140 DEBUG:Next wakeup is due at 2025-05-26 16:20:02.125648-04:00 (in 3599.985365 seconds)
+2025-05-26 15:20:02,140 INFO:Running job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 16:20:02 -04)" (scheduled at 2025-05-26 15:20:02.125648-04:00)
+2025-05-26 15:20:02,155 INFO:Tokens eliminados: 3
+2025-05-26 15:20:02,155 INFO:Job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-26 16:20:02 -04)" executed successfully
+2025-05-26 15:44:35,750 INFO:192.168.110.94:57512 - "GET /login?fecha_inicio=2025-04-26&fecha_fin=2025-05-26 HTTP/1.1" 405
+2025-05-26 15:49:27,940 ERROR:2025-05-26 15:49:27,939 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:27,939 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:27,940 INFO:127.0.0.1:54098 - "POST /login HTTP/1.1" 200
+2025-05-26 15:49:34,238 ERROR:2025-05-26 15:49:34,236 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:34,236 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:34,239 INFO:127.0.0.1:54248 - "POST /login HTTP/1.1" 200
+2025-05-26 15:49:35,139 ERROR:2025-05-26 15:49:35,138 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:35,138 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:35,139 INFO:127.0.0.1:54248 - "POST /login HTTP/1.1" 200
+2025-05-26 15:49:35,993 ERROR:2025-05-26 15:49:35,993 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:35,993 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:35,994 INFO:127.0.0.1:54248 - "POST /login HTTP/1.1" 200
+2025-05-26 15:49:36,848 ERROR:2025-05-26 15:49:36,847 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:36,847 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:36,848 INFO:127.0.0.1:54248 - "POST /login HTTP/1.1" 200
+2025-05-26 15:49:41,046 ERROR:2025-05-26 15:49:41,046 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:41,046 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:41,048 INFO:127.0.0.1:54248 - "POST /login HTTP/1.1" 200
+2025-05-26 15:49:50,545 ERROR:2025-05-26 15:49:50,545 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:50,545 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-26 15:49:50,546 INFO:127.0.0.1:54615 - "POST /login HTTP/1.1" 200

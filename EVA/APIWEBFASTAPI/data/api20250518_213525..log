@@ -1,0 +1,8 @@
+2025-05-18 21:34:17,212 ERROR:Traceback (most recent call last):
+2025-05-18 21:34:17,212 ERROR:  File "c:\Users\Admin\pythonp\src\san5\APIWEB\run.py", line 13, in <module>
+2025-05-18 21:34:17,214 ERROR:from routes import routes
+2025-05-18 21:34:17,214 ERROR:  File "c:\Users\Admin\pythonp\src\san5\APIWEB\routes.py", line 38, in <module>
+2025-05-18 21:34:17,214 ERROR:from glib2.uXMLGlobalLib import *
+2025-05-18 21:34:17,214 ERROR:ModuleNotFoundError
+2025-05-18 21:34:17,214 ERROR::
+2025-05-18 21:34:17,214 ERROR:No module named 'glib2'

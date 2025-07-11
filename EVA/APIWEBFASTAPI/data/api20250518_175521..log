@@ -1,0 +1,16 @@
+2025-05-18 17:51:07,920 INFO:Archivo de log renombrado a: c:\Users\Admin\pythonp\src\san5\APIFE\data\api20250518_175107..log
+2025-05-18 17:51:08,198 INFO:Configuration loaded from config\config.json
+2025-05-18 17:51:08,254 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-18 17:51:08,254 DEBUG:Looking up time zone info from registry
+2025-05-18 17:51:08,257 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-18 17:51:08,257 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-18 17:51:08,257 INFO:Scheduler started
+2025-05-18 17:51:08,258 DEBUG:Looking for jobs to run
+2025-05-18 17:51:08,258 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8001
+2025-05-18 17:51:08,258 DEBUG:Next wakeup is due at 2025-05-18 18:51:08.255971-04:00 (in 3599.997868 seconds)
+2025-05-18 17:51:08,262 DEBUG:Using selector: SelectSelector
+2025-05-18 17:51:08,312 INFO:Started server process [29140]
+2025-05-18 17:51:08,313 INFO:Waiting for application startup.
+2025-05-18 17:51:08,313 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-18 17:51:08,313 INFO:Application startup complete.
+2025-05-18 17:51:08,314 INFO:Uvicorn running on https://0.0.0.0:8001 (Press CTRL+C to quit)

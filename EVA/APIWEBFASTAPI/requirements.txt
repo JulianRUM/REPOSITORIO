@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-jose[cryptography]
+databases
+asyncmy
+asyncpg
+pytds
+passlib[bcrypt]
+PyJWT
+python-dotenv 

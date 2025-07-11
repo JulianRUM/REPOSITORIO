@@ -1,0 +1,34 @@
+2025-05-22 10:36:26,914 INFO:Configuration loaded from config\config.json
+2025-05-22 10:36:27,141 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-22 10:36:27,142 DEBUG:Looking up time zone info from registry
+2025-05-22 10:36:27,144 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-22 10:36:27,144 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-22 10:36:27,145 INFO:Scheduler started
+2025-05-22 10:36:27,145 DEBUG:Looking for jobs to run
+2025-05-22 10:36:27,145 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-22 10:36:27,145 DEBUG:Next wakeup is due at 2025-05-22 11:36:27.144898-04:00 (in 3599.998999 seconds)
+2025-05-22 10:36:27,149 DEBUG:Using selector: SelectSelector
+2025-05-22 10:36:27,220 INFO:Started server process [6676]
+2025-05-22 10:36:27,220 INFO:Waiting for application startup.
+2025-05-22 10:36:27,220 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-22 10:36:27,220 INFO:Application startup complete.
+2025-05-22 10:36:27,221 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-05-22 10:37:28,820 INFO:127.0.0.1:51467 - "GET / HTTP/1.1" 200
+2025-05-22 10:38:01,075 ERROR:2025-05-22 10:38:01,075 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:38:01,075 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:38:01,384 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-22 10:38:01,388 INFO:127.0.0.1:51472 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 400
+2025-05-22 10:38:13,038 ERROR:2025-05-22 10:38:13,038 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:38:13,038 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:38:13,318 INFO:127.0.0.1:52488 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-22 10:43:30,769 ERROR:2025-05-22 10:43:30,769 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:43:30,769 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:43:31,036 ERROR:Error del servidor: unsupported format string passed to NoneType.__format__
+2025-05-22 10:43:31,038 INFO:127.0.0.1:59850 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 500
+2025-05-22 10:44:03,960 ERROR:2025-05-22 10:44:03,960 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:44:03,960 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:44:04,209 INFO:127.0.0.1:59860 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-22 10:45:14,726 ERROR:2025-05-22 10:45:14,726 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:45:14,726 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-22 10:45:14,943 ERROR:Error del servidor: unsupported format string passed to NoneType.__format__
+2025-05-22 10:45:14,945 INFO:127.0.0.1:62306 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 500

@@ -1,0 +1,46 @@
+2025-05-23 11:30:46,689 INFO:Configuration loaded from config\config.json
+2025-05-23 11:30:46,825 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-23 11:30:46,825 DEBUG:Looking up time zone info from registry
+2025-05-23 11:30:46,827 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-23 11:30:46,828 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-23 11:30:46,828 INFO:Scheduler started
+2025-05-23 11:30:46,828 DEBUG:Looking for jobs to run
+2025-05-23 11:30:46,828 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-23 11:30:46,829 DEBUG:Next wakeup is due at 2025-05-23 12:30:46.827983-04:00 (in 3599.998002 seconds)
+2025-05-23 11:30:46,832 DEBUG:Using selector: SelectSelector
+2025-05-23 11:30:46,880 INFO:Started server process [20212]
+2025-05-23 11:30:46,880 INFO:Waiting for application startup.
+2025-05-23 11:30:46,880 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-23 11:30:46,880 INFO:Application startup complete.
+2025-05-23 11:30:46,880 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-05-23 11:31:00,298 INFO:127.0.0.1:55311 - "POST /register HTTP/1.1" 500
+2025-05-23 11:32:11,988 INFO:127.0.0.1:56136 - "POST /register HTTP/1.1" 500
+2025-05-23 11:32:15,278 ERROR:Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\pythonp\src\san5\APIWEB\routes.py", line 131, in register
+    hashed_password = hash_password(password)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\pythonp\src\san5\APIWEB\api.py", line 311, in hash_password
+    return pbkdf2_sha256.hash(password)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 777, in hash
+    validate_secret(secret)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 122, in validate_secret
+    raise exc.ExpectedStringError(secret, "secret")
+TypeError: secret must be unicode or bytes, not None
+2025-05-23 11:32:15,325 INFO:127.0.0.1:56136 - "POST /register HTTP/1.1" 500
