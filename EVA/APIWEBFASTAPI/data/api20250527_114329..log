@@ -1,0 +1,646 @@
+2025-05-27 09:51:55,566 INFO:Configuration loaded from config\config.json
+2025-05-27 09:51:55,723 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-27 09:51:55,723 DEBUG:Looking up time zone info from registry
+2025-05-27 09:51:55,735 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 09:51:55,736 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-27 09:51:55,736 INFO:Scheduler started
+2025-05-27 09:51:55,737 DEBUG:Looking for jobs to run
+2025-05-27 09:51:55,737 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-27 09:51:55,737 DEBUG:Next wakeup is due at 2025-05-27 09:52:55.735901-04:00 (in 59.998005 seconds)
+2025-05-27 09:51:55,742 DEBUG:Using selector: SelectSelector
+2025-05-27 09:51:55,853 INFO:Started server process [1572]
+2025-05-27 09:51:55,854 INFO:Waiting for application startup.
+2025-05-27 09:51:55,854 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-27 09:51:55,854 INFO:Application startup complete.
+2025-05-27 09:51:55,854 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-05-27 09:52:55,751 DEBUG:Looking for jobs to run
+2025-05-27 09:52:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:52:55 -04)" (scheduled at 2025-05-27 09:52:55.735901-04:00)
+2025-05-27 09:52:55,751 DEBUG:Next wakeup is due at 2025-05-27 09:53:55.735901-04:00 (in 59.984181 seconds)
+2025-05-27 09:52:55,796 INFO:Tokens eliminados: 1
+2025-05-27 09:52:55,797 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:53:55 -04)" executed successfully
+2025-05-27 09:53:55,747 DEBUG:Looking for jobs to run
+2025-05-27 09:53:55,748 DEBUG:Next wakeup is due at 2025-05-27 09:54:55.735901-04:00 (in 59.987679 seconds)
+2025-05-27 09:53:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:54:55 -04)" (scheduled at 2025-05-27 09:53:55.735901-04:00)
+2025-05-27 09:53:55,753 INFO:Tokens eliminados: 0
+2025-05-27 09:53:55,753 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:54:55 -04)" executed successfully
+2025-05-27 09:54:55,739 DEBUG:Looking for jobs to run
+2025-05-27 09:54:55,739 DEBUG:Next wakeup is due at 2025-05-27 09:55:55.735901-04:00 (in 59.996452 seconds)
+2025-05-27 09:54:55,739 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:55:55 -04)" (scheduled at 2025-05-27 09:54:55.735901-04:00)
+2025-05-27 09:54:55,745 INFO:Tokens eliminados: 0
+2025-05-27 09:54:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:55:55 -04)" executed successfully
+2025-05-27 09:55:55,747 DEBUG:Looking for jobs to run
+2025-05-27 09:55:55,747 DEBUG:Next wakeup is due at 2025-05-27 09:56:55.735901-04:00 (in 59.988587 seconds)
+2025-05-27 09:55:55,747 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:56:55 -04)" (scheduled at 2025-05-27 09:55:55.735901-04:00)
+2025-05-27 09:55:55,753 INFO:Tokens eliminados: 0
+2025-05-27 09:55:55,754 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:56:55 -04)" executed successfully
+2025-05-27 09:56:55,738 DEBUG:Looking for jobs to run
+2025-05-27 09:56:55,738 DEBUG:Next wakeup is due at 2025-05-27 09:57:55.735901-04:00 (in 59.997272 seconds)
+2025-05-27 09:56:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:57:55 -04)" (scheduled at 2025-05-27 09:56:55.735901-04:00)
+2025-05-27 09:56:55,752 INFO:Tokens eliminados: 0
+2025-05-27 09:56:55,752 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:57:55 -04)" executed successfully
+2025-05-27 09:57:55,751 DEBUG:Looking for jobs to run
+2025-05-27 09:57:55,751 DEBUG:Next wakeup is due at 2025-05-27 09:58:55.735901-04:00 (in 59.984071 seconds)
+2025-05-27 09:57:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:58:55 -04)" (scheduled at 2025-05-27 09:57:55.735901-04:00)
+2025-05-27 09:57:55,757 INFO:Tokens eliminados: 0
+2025-05-27 09:57:55,757 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:58:55 -04)" executed successfully
+2025-05-27 09:58:55,747 DEBUG:Looking for jobs to run
+2025-05-27 09:58:55,747 DEBUG:Next wakeup is due at 2025-05-27 09:59:55.735901-04:00 (in 59.988357 seconds)
+2025-05-27 09:58:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:59:55 -04)" (scheduled at 2025-05-27 09:58:55.735901-04:00)
+2025-05-27 09:58:55,754 INFO:Tokens eliminados: 0
+2025-05-27 09:58:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 09:59:55 -04)" executed successfully
+2025-05-27 09:59:55,744 DEBUG:Looking for jobs to run
+2025-05-27 09:59:55,744 DEBUG:Next wakeup is due at 2025-05-27 10:00:55.735901-04:00 (in 59.991264 seconds)
+2025-05-27 09:59:55,744 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:00:55 -04)" (scheduled at 2025-05-27 09:59:55.735901-04:00)
+2025-05-27 09:59:55,749 INFO:Tokens eliminados: 0
+2025-05-27 09:59:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:00:55 -04)" executed successfully
+2025-05-27 10:00:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:00:55,737 DEBUG:Next wakeup is due at 2025-05-27 10:01:55.735901-04:00 (in 59.998202 seconds)
+2025-05-27 10:00:55,737 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:01:55 -04)" (scheduled at 2025-05-27 10:00:55.735901-04:00)
+2025-05-27 10:00:55,745 INFO:Tokens eliminados: 0
+2025-05-27 10:00:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:01:55 -04)" executed successfully
+2025-05-27 10:01:55,750 DEBUG:Looking for jobs to run
+2025-05-27 10:01:55,750 DEBUG:Next wakeup is due at 2025-05-27 10:02:55.735901-04:00 (in 59.985098 seconds)
+2025-05-27 10:01:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:02:55 -04)" (scheduled at 2025-05-27 10:01:55.735901-04:00)
+2025-05-27 10:01:55,755 INFO:Tokens eliminados: 0
+2025-05-27 10:01:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:02:55 -04)" executed successfully
+2025-05-27 10:02:55,745 DEBUG:Looking for jobs to run
+2025-05-27 10:02:55,746 DEBUG:Next wakeup is due at 2025-05-27 10:03:55.735901-04:00 (in 59.989151 seconds)
+2025-05-27 10:02:55,746 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:03:55 -04)" (scheduled at 2025-05-27 10:02:55.735901-04:00)
+2025-05-27 10:02:55,750 INFO:Tokens eliminados: 0
+2025-05-27 10:02:55,750 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:03:55 -04)" executed successfully
+2025-05-27 10:03:55,751 DEBUG:Looking for jobs to run
+2025-05-27 10:03:55,751 DEBUG:Next wakeup is due at 2025-05-27 10:04:55.735901-04:00 (in 59.984569 seconds)
+2025-05-27 10:03:55,752 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:04:55 -04)" (scheduled at 2025-05-27 10:03:55.735901-04:00)
+2025-05-27 10:03:55,756 INFO:Tokens eliminados: 0
+2025-05-27 10:03:55,756 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:04:55 -04)" executed successfully
+2025-05-27 10:04:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:04:55,738 DEBUG:Next wakeup is due at 2025-05-27 10:05:55.735901-04:00 (in 59.997568 seconds)
+2025-05-27 10:04:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:05:55 -04)" (scheduled at 2025-05-27 10:04:55.735901-04:00)
+2025-05-27 10:04:55,742 INFO:Tokens eliminados: 0
+2025-05-27 10:04:55,742 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:05:55 -04)" executed successfully
+2025-05-27 10:05:55,742 DEBUG:Looking for jobs to run
+2025-05-27 10:05:55,742 DEBUG:Next wakeup is due at 2025-05-27 10:06:55.735901-04:00 (in 59.992915 seconds)
+2025-05-27 10:05:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:06:55 -04)" (scheduled at 2025-05-27 10:05:55.735901-04:00)
+2025-05-27 10:05:55,748 INFO:Tokens eliminados: 0
+2025-05-27 10:05:55,748 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:06:55 -04)" executed successfully
+2025-05-27 10:06:55,743 DEBUG:Looking for jobs to run
+2025-05-27 10:06:55,743 DEBUG:Next wakeup is due at 2025-05-27 10:07:55.735901-04:00 (in 59.992113 seconds)
+2025-05-27 10:06:55,743 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:07:55 -04)" (scheduled at 2025-05-27 10:06:55.735901-04:00)
+2025-05-27 10:06:55,749 INFO:Tokens eliminados: 0
+2025-05-27 10:06:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:07:55 -04)" executed successfully
+2025-05-27 10:07:55,751 DEBUG:Looking for jobs to run
+2025-05-27 10:07:55,751 DEBUG:Next wakeup is due at 2025-05-27 10:08:55.735901-04:00 (in 59.984659 seconds)
+2025-05-27 10:07:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:08:55 -04)" (scheduled at 2025-05-27 10:07:55.735901-04:00)
+2025-05-27 10:07:55,755 INFO:Tokens eliminados: 0
+2025-05-27 10:07:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:08:55 -04)" executed successfully
+2025-05-27 10:08:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:08:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:09:55.735901-04:00 (in 59.994488 seconds)
+2025-05-27 10:08:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:09:55 -04)" (scheduled at 2025-05-27 10:08:55.735901-04:00)
+2025-05-27 10:08:55,745 INFO:Tokens eliminados: 0
+2025-05-27 10:08:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:09:55 -04)" executed successfully
+2025-05-27 10:09:11,782 INFO:192.168.110.94:57897 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:09:11,852 ERROR:2025-05-27 10:09:11,851 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:09:11,851 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:09:11,853 INFO:192.168.110.94:57897 - "POST /login HTTP/1.1" 200
+2025-05-27 10:09:22,708 INFO:192.168.110.94:57904 - "OPTIONS /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 200
+2025-05-27 10:09:22,769 ERROR:2025-05-27 10:09:22,769 - INFO - Token utilizado por el usuario: admin
+2025-05-27 10:09:22,769 INFO:Token utilizado por el usuario: admin
+2025-05-27 10:09:22,770 ERROR:2025-05-27 10:09:22,770 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:09:22,770 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:09:23,240 INFO:192.168.110.94:57904 - "GET /EF?rnc=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 200
+2025-05-27 10:09:55,747 DEBUG:Looking for jobs to run
+2025-05-27 10:09:55,748 DEBUG:Next wakeup is due at 2025-05-27 10:10:55.735901-04:00 (in 59.987259 seconds)
+2025-05-27 10:09:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:10:55 -04)" (scheduled at 2025-05-27 10:09:55.735901-04:00)
+2025-05-27 10:09:55,752 INFO:Tokens eliminados: 0
+2025-05-27 10:09:55,752 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:10:55 -04)" executed successfully
+2025-05-27 10:10:55,739 DEBUG:Looking for jobs to run
+2025-05-27 10:10:55,739 DEBUG:Next wakeup is due at 2025-05-27 10:11:55.735901-04:00 (in 59.996775 seconds)
+2025-05-27 10:10:55,739 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:11:55 -04)" (scheduled at 2025-05-27 10:10:55.735901-04:00)
+2025-05-27 10:10:55,743 INFO:Tokens eliminados: 0
+2025-05-27 10:10:55,743 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:11:55 -04)" executed successfully
+2025-05-27 10:11:55,746 DEBUG:Looking for jobs to run
+2025-05-27 10:11:55,746 DEBUG:Next wakeup is due at 2025-05-27 10:12:55.735901-04:00 (in 59.989691 seconds)
+2025-05-27 10:11:55,746 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:12:55 -04)" (scheduled at 2025-05-27 10:11:55.735901-04:00)
+2025-05-27 10:11:55,749 INFO:Tokens eliminados: 0
+2025-05-27 10:11:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:12:55 -04)" executed successfully
+2025-05-27 10:12:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:12:55,737 DEBUG:Next wakeup is due at 2025-05-27 10:13:55.735901-04:00 (in 59.998677 seconds)
+2025-05-27 10:12:55,737 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:13:55 -04)" (scheduled at 2025-05-27 10:12:55.735901-04:00)
+2025-05-27 10:12:55,741 INFO:Tokens eliminados: 0
+2025-05-27 10:12:55,741 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:13:55 -04)" executed successfully
+2025-05-27 10:13:55,740 DEBUG:Looking for jobs to run
+2025-05-27 10:13:55,740 DEBUG:Next wakeup is due at 2025-05-27 10:14:55.735901-04:00 (in 59.995055 seconds)
+2025-05-27 10:13:55,740 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:14:55 -04)" (scheduled at 2025-05-27 10:13:55.735901-04:00)
+2025-05-27 10:13:55,744 INFO:Tokens eliminados: 0
+2025-05-27 10:13:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:14:55 -04)" executed successfully
+2025-05-27 10:14:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:14:55,742 DEBUG:Next wakeup is due at 2025-05-27 10:15:55.735901-04:00 (in 59.993630 seconds)
+2025-05-27 10:14:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:15:55 -04)" (scheduled at 2025-05-27 10:14:55.735901-04:00)
+2025-05-27 10:14:55,746 INFO:Tokens eliminados: 1
+2025-05-27 10:14:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:15:55 -04)" executed successfully
+2025-05-27 10:15:47,430 INFO:192.168.110.94:58061 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:15:47,509 ERROR:2025-05-27 10:15:47,509 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:15:47,509 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:15:47,510 INFO:192.168.110.94:58061 - "POST /login HTTP/1.1" 200
+2025-05-27 10:15:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:15:55,742 DEBUG:Next wakeup is due at 2025-05-27 10:16:55.735901-04:00 (in 59.993505 seconds)
+2025-05-27 10:15:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:16:55 -04)" (scheduled at 2025-05-27 10:15:55.735901-04:00)
+2025-05-27 10:15:55,746 INFO:Tokens eliminados: 0
+2025-05-27 10:15:55,747 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:16:55 -04)" executed successfully
+2025-05-27 10:16:55,747 DEBUG:Looking for jobs to run
+2025-05-27 10:16:55,747 DEBUG:Next wakeup is due at 2025-05-27 10:17:55.735901-04:00 (in 59.988406 seconds)
+2025-05-27 10:16:55,747 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:17:55 -04)" (scheduled at 2025-05-27 10:16:55.735901-04:00)
+2025-05-27 10:16:55,752 INFO:Tokens eliminados: 0
+2025-05-27 10:16:55,753 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:17:55 -04)" executed successfully
+2025-05-27 10:17:05,604 ERROR:2025-05-27 10:17:05,604 - INFO - Nuevo usuario registrado: admin3 con RNC: 123456789
+2025-05-27 10:17:05,604 INFO:Nuevo usuario registrado: admin3 con RNC: 123456789
+2025-05-27 10:17:05,605 INFO:127.0.0.1:57982 - "POST /register HTTP/1.1" 201
+2025-05-27 10:17:13,801 INFO:192.168.110.94:58104 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:17:13,885 ERROR:2025-05-27 10:17:13,884 - INFO - Usuario Asesys07 con RNC: 131709745 inició sesión y se generó un token.
+2025-05-27 10:17:13,884 INFO:Usuario Asesys07 con RNC: 131709745 inició sesión y se generó un token.
+2025-05-27 10:17:13,885 INFO:192.168.110.94:58104 - "POST /login HTTP/1.1" 200
+2025-05-27 10:17:37,495 INFO:192.168.110.94:58111 - "OPTIONS /EF?rnc=131709745&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 200
+2025-05-27 10:17:37,555 ERROR:2025-05-27 10:17:37,555 - INFO - Token utilizado por el usuario: Asesys07
+2025-05-27 10:17:37,555 INFO:Token utilizado por el usuario: Asesys07
+2025-05-27 10:17:37,555 ERROR:2025-05-27 10:17:37,555 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:17:37,555 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:17:38,029 INFO:192.168.110.94:58111 - "GET /EF?rnc=131709745&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 200
+2025-05-27 10:17:55,744 DEBUG:Looking for jobs to run
+2025-05-27 10:17:55,744 DEBUG:Next wakeup is due at 2025-05-27 10:18:55.735901-04:00 (in 59.991563 seconds)
+2025-05-27 10:17:55,744 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:18:55 -04)" (scheduled at 2025-05-27 10:17:55.735901-04:00)
+2025-05-27 10:17:55,748 INFO:Tokens eliminados: 0
+2025-05-27 10:17:55,748 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:18:55 -04)" executed successfully
+2025-05-27 10:18:55,750 DEBUG:Looking for jobs to run
+2025-05-27 10:18:55,750 DEBUG:Next wakeup is due at 2025-05-27 10:19:55.735901-04:00 (in 59.985491 seconds)
+2025-05-27 10:18:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:19:55 -04)" (scheduled at 2025-05-27 10:18:55.735901-04:00)
+2025-05-27 10:18:55,754 INFO:Tokens eliminados: 0
+2025-05-27 10:18:55,754 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:19:55 -04)" executed successfully
+2025-05-27 10:19:55,743 DEBUG:Looking for jobs to run
+2025-05-27 10:19:55,743 DEBUG:Next wakeup is due at 2025-05-27 10:20:55.735901-04:00 (in 59.991977 seconds)
+2025-05-27 10:19:55,743 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:20:55 -04)" (scheduled at 2025-05-27 10:19:55.735901-04:00)
+2025-05-27 10:19:55,748 INFO:Tokens eliminados: 0
+2025-05-27 10:19:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:20:55 -04)" executed successfully
+2025-05-27 10:20:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:20:55,739 DEBUG:Next wakeup is due at 2025-05-27 10:21:55.735901-04:00 (in 59.997979 seconds)
+2025-05-27 10:20:55,739 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:21:55 -04)" (scheduled at 2025-05-27 10:20:55.735901-04:00)
+2025-05-27 10:20:55,745 INFO:Tokens eliminados: 1
+2025-05-27 10:20:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:21:55 -04)" executed successfully
+2025-05-27 10:21:55,742 DEBUG:Looking for jobs to run
+2025-05-27 10:21:55,742 DEBUG:Next wakeup is due at 2025-05-27 10:22:55.735901-04:00 (in 59.993317 seconds)
+2025-05-27 10:21:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:22:55 -04)" (scheduled at 2025-05-27 10:21:55.735901-04:00)
+2025-05-27 10:21:55,746 INFO:Tokens eliminados: 0
+2025-05-27 10:21:55,747 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:22:55 -04)" executed successfully
+2025-05-27 10:22:55,750 DEBUG:Looking for jobs to run
+2025-05-27 10:22:55,750 DEBUG:Next wakeup is due at 2025-05-27 10:23:55.735901-04:00 (in 59.985368 seconds)
+2025-05-27 10:22:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:23:55 -04)" (scheduled at 2025-05-27 10:22:55.735901-04:00)
+2025-05-27 10:22:55,756 INFO:Tokens eliminados: 1
+2025-05-27 10:22:55,757 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:23:55 -04)" executed successfully
+2025-05-27 10:23:55,739 DEBUG:Looking for jobs to run
+2025-05-27 10:23:55,740 DEBUG:Next wakeup is due at 2025-05-27 10:24:55.735901-04:00 (in 59.995664 seconds)
+2025-05-27 10:23:55,740 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:24:55 -04)" (scheduled at 2025-05-27 10:23:55.735901-04:00)
+2025-05-27 10:23:55,743 INFO:Tokens eliminados: 0
+2025-05-27 10:23:55,744 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:24:55 -04)" executed successfully
+2025-05-27 10:24:55,742 DEBUG:Looking for jobs to run
+2025-05-27 10:24:55,742 DEBUG:Next wakeup is due at 2025-05-27 10:25:55.735901-04:00 (in 59.993409 seconds)
+2025-05-27 10:24:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:25:55 -04)" (scheduled at 2025-05-27 10:24:55.735901-04:00)
+2025-05-27 10:24:55,746 INFO:Tokens eliminados: 0
+2025-05-27 10:24:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:25:55 -04)" executed successfully
+2025-05-27 10:25:48,926 INFO:127.0.0.1:54465 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99&rncemisor=131709745 HTTP/1.1" 401
+2025-05-27 10:25:55,750 DEBUG:Looking for jobs to run
+2025-05-27 10:25:55,750 DEBUG:Next wakeup is due at 2025-05-27 10:26:55.735901-04:00 (in 59.985174 seconds)
+2025-05-27 10:25:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:26:55 -04)" (scheduled at 2025-05-27 10:25:55.735901-04:00)
+2025-05-27 10:25:55,755 INFO:Tokens eliminados: 0
+2025-05-27 10:25:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:26:55 -04)" executed successfully
+2025-05-27 10:26:01,432 ERROR:2025-05-27 10:26:01,432 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:26:01,432 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:26:01,434 INFO:127.0.0.1:54751 - "POST /login HTTP/1.1" 200
+2025-05-27 10:26:20,642 ERROR:2025-05-27 10:26:20,642 - INFO - Token utilizado por el usuario: admin
+2025-05-27 10:26:20,642 INFO:Token utilizado por el usuario: admin
+2025-05-27 10:26:20,643 ERROR:2025-05-27 10:26:20,643 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:26:20,643 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:26:20,845 INFO:127.0.0.1:55193 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99&rncemisor=131709745 HTTP/1.1" 200
+2025-05-27 10:26:55,743 DEBUG:Looking for jobs to run
+2025-05-27 10:26:55,743 DEBUG:Next wakeup is due at 2025-05-27 10:27:55.735901-04:00 (in 59.992026 seconds)
+2025-05-27 10:26:55,743 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:27:55 -04)" (scheduled at 2025-05-27 10:26:55.735901-04:00)
+2025-05-27 10:26:55,748 INFO:Tokens eliminados: 0
+2025-05-27 10:26:55,748 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:27:55 -04)" executed successfully
+2025-05-27 10:27:09,516 INFO:192.168.110.94:58181 - "GET /EF?rncemisor=$%7BuserData.rnc%7D&fecha_inicio=$%7BformattedDateFrom%7D&fecha_fin=$%7BformattedDateTo%7D HTTP/1.1" 401
+2025-05-27 10:27:54,649 INFO:192.168.110.94:58190 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:27:54,723 ERROR:2025-05-27 10:27:54,723 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:27:54,723 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:27:54,724 INFO:192.168.110.94:58190 - "POST /login HTTP/1.1" 200
+2025-05-27 10:27:55,744 DEBUG:Looking for jobs to run
+2025-05-27 10:27:55,744 DEBUG:Next wakeup is due at 2025-05-27 10:28:55.735901-04:00 (in 59.991888 seconds)
+2025-05-27 10:27:55,744 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:28:55 -04)" (scheduled at 2025-05-27 10:27:55.735901-04:00)
+2025-05-27 10:27:55,748 INFO:Tokens eliminados: 0
+2025-05-27 10:27:55,748 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:28:55 -04)" executed successfully
+2025-05-27 10:28:10,109 INFO:192.168.110.94:58202 - "OPTIONS /EF?rncemisor=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 200
+2025-05-27 10:28:10,161 ERROR:2025-05-27 10:28:10,161 - INFO - Token utilizado por el usuario: admin
+2025-05-27 10:28:10,161 INFO:Token utilizado por el usuario: admin
+2025-05-27 10:28:10,161 ERROR:2025-05-27 10:28:10,161 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:28:10,161 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:28:10,379 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-27 10:28:10,381 INFO:192.168.110.94:58202 - "GET /EF?rncemisor=123456789&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 400
+2025-05-27 10:28:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:28:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:29:55.735901-04:00 (in 59.994580 seconds)
+2025-05-27 10:28:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:29:55 -04)" (scheduled at 2025-05-27 10:28:55.735901-04:00)
+2025-05-27 10:28:55,745 INFO:Tokens eliminados: 0
+2025-05-27 10:28:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:29:55 -04)" executed successfully
+2025-05-27 10:29:01,826 INFO:192.168.110.94:58211 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:29:01,906 ERROR:2025-05-27 10:29:01,906 - INFO - Usuario Asesys07 con RNC: 131709745 inició sesión y se generó un token.
+2025-05-27 10:29:01,906 INFO:Usuario Asesys07 con RNC: 131709745 inició sesión y se generó un token.
+2025-05-27 10:29:01,907 INFO:192.168.110.94:58211 - "POST /login HTTP/1.1" 200
+2025-05-27 10:29:18,981 INFO:192.168.110.94:58221 - "OPTIONS /EF?rncemisor=131709745&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 200
+2025-05-27 10:29:19,041 ERROR:2025-05-27 10:29:19,041 - INFO - Token utilizado por el usuario: Asesys07
+2025-05-27 10:29:19,041 INFO:Token utilizado por el usuario: Asesys07
+2025-05-27 10:29:19,041 ERROR:2025-05-27 10:29:19,041 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:29:19,041 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-27 10:29:19,499 INFO:192.168.110.94:58221 - "GET /EF?rncemisor=131709745&fecha_inicio=2024-12-16&fecha_fin=2025-05-27 HTTP/1.1" 200
+2025-05-27 10:29:55,738 DEBUG:Looking for jobs to run
+2025-05-27 10:29:55,738 DEBUG:Next wakeup is due at 2025-05-27 10:30:55.735901-04:00 (in 59.996911 seconds)
+2025-05-27 10:29:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:30:55 -04)" (scheduled at 2025-05-27 10:29:55.735901-04:00)
+2025-05-27 10:29:55,743 INFO:Tokens eliminados: 0
+2025-05-27 10:29:55,743 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:30:55 -04)" executed successfully
+2025-05-27 10:30:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:30:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:31:55.735901-04:00 (in 59.994724 seconds)
+2025-05-27 10:30:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:31:55 -04)" (scheduled at 2025-05-27 10:30:55.735901-04:00)
+2025-05-27 10:30:55,745 INFO:Tokens eliminados: 0
+2025-05-27 10:30:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:31:55 -04)" executed successfully
+2025-05-27 10:31:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:31:55,737 DEBUG:Next wakeup is due at 2025-05-27 10:32:55.735901-04:00 (in 59.998366 seconds)
+2025-05-27 10:31:55,737 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:32:55 -04)" (scheduled at 2025-05-27 10:31:55.735901-04:00)
+2025-05-27 10:31:55,743 INFO:Tokens eliminados: 1
+2025-05-27 10:31:55,743 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:32:55 -04)" executed successfully
+2025-05-27 10:32:55,751 DEBUG:Looking for jobs to run
+2025-05-27 10:32:55,751 DEBUG:Next wakeup is due at 2025-05-27 10:33:55.735901-04:00 (in 59.983967 seconds)
+2025-05-27 10:32:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:33:55 -04)" (scheduled at 2025-05-27 10:32:55.735901-04:00)
+2025-05-27 10:32:55,758 INFO:Tokens eliminados: 1
+2025-05-27 10:32:55,758 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:33:55 -04)" executed successfully
+2025-05-27 10:33:55,750 DEBUG:Looking for jobs to run
+2025-05-27 10:33:55,751 DEBUG:Next wakeup is due at 2025-05-27 10:34:55.735901-04:00 (in 59.984440 seconds)
+2025-05-27 10:33:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:34:55 -04)" (scheduled at 2025-05-27 10:33:55.735901-04:00)
+2025-05-27 10:33:55,756 INFO:Tokens eliminados: 0
+2025-05-27 10:33:55,756 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:34:55 -04)" executed successfully
+2025-05-27 10:34:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:34:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:35:55.735901-04:00 (in 59.994268 seconds)
+2025-05-27 10:34:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:35:55 -04)" (scheduled at 2025-05-27 10:34:55.735901-04:00)
+2025-05-27 10:34:55,746 INFO:Tokens eliminados: 1
+2025-05-27 10:34:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:35:55 -04)" executed successfully
+2025-05-27 10:35:24,733 INFO:192.168.110.94:58494 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:35:24,807 ERROR:2025-05-27 10:35:24,807 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:35:24,807 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:35:24,808 INFO:192.168.110.94:58494 - "POST /login HTTP/1.1" 200
+2025-05-27 10:35:55,748 DEBUG:Looking for jobs to run
+2025-05-27 10:35:55,748 DEBUG:Next wakeup is due at 2025-05-27 10:36:55.735901-04:00 (in 59.987026 seconds)
+2025-05-27 10:35:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:36:55 -04)" (scheduled at 2025-05-27 10:35:55.735901-04:00)
+2025-05-27 10:35:55,753 INFO:Tokens eliminados: 0
+2025-05-27 10:35:55,753 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:36:55 -04)" executed successfully
+2025-05-27 10:36:55,740 DEBUG:Looking for jobs to run
+2025-05-27 10:36:55,740 DEBUG:Next wakeup is due at 2025-05-27 10:37:55.735901-04:00 (in 59.995485 seconds)
+2025-05-27 10:36:55,740 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:37:55 -04)" (scheduled at 2025-05-27 10:36:55.735901-04:00)
+2025-05-27 10:36:55,744 INFO:Tokens eliminados: 0
+2025-05-27 10:36:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:37:55 -04)" executed successfully
+2025-05-27 10:37:55,747 DEBUG:Looking for jobs to run
+2025-05-27 10:37:55,748 DEBUG:Next wakeup is due at 2025-05-27 10:38:55.735901-04:00 (in 59.988872 seconds)
+2025-05-27 10:37:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:38:55 -04)" (scheduled at 2025-05-27 10:37:55.735901-04:00)
+2025-05-27 10:37:55,751 INFO:Tokens eliminados: 0
+2025-05-27 10:37:55,752 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:38:55 -04)" executed successfully
+2025-05-27 10:38:55,749 DEBUG:Looking for jobs to run
+2025-05-27 10:38:55,749 DEBUG:Next wakeup is due at 2025-05-27 10:39:55.735901-04:00 (in 59.986543 seconds)
+2025-05-27 10:38:55,749 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:39:55 -04)" (scheduled at 2025-05-27 10:38:55.735901-04:00)
+2025-05-27 10:38:55,755 INFO:Tokens eliminados: 0
+2025-05-27 10:38:55,756 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:39:55 -04)" executed successfully
+2025-05-27 10:39:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:39:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:40:55.735901-04:00 (in 59.994702 seconds)
+2025-05-27 10:39:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:40:55 -04)" (scheduled at 2025-05-27 10:39:55.735901-04:00)
+2025-05-27 10:39:55,744 INFO:Tokens eliminados: 0
+2025-05-27 10:39:55,744 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:40:55 -04)" executed successfully
+2025-05-27 10:40:55,748 DEBUG:Looking for jobs to run
+2025-05-27 10:40:55,748 DEBUG:Next wakeup is due at 2025-05-27 10:41:55.735901-04:00 (in 59.987800 seconds)
+2025-05-27 10:40:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:41:55 -04)" (scheduled at 2025-05-27 10:40:55.735901-04:00)
+2025-05-27 10:40:55,752 INFO:Tokens eliminados: 1
+2025-05-27 10:40:55,752 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:41:55 -04)" executed successfully
+2025-05-27 10:41:55,750 DEBUG:Looking for jobs to run
+2025-05-27 10:41:55,750 DEBUG:Next wakeup is due at 2025-05-27 10:42:55.735901-04:00 (in 59.985654 seconds)
+2025-05-27 10:41:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:42:55 -04)" (scheduled at 2025-05-27 10:41:55.735901-04:00)
+2025-05-27 10:41:55,755 INFO:Tokens eliminados: 0
+2025-05-27 10:41:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:42:55 -04)" executed successfully
+2025-05-27 10:42:55,743 DEBUG:Looking for jobs to run
+2025-05-27 10:42:55,743 DEBUG:Next wakeup is due at 2025-05-27 10:43:55.735901-04:00 (in 59.992046 seconds)
+2025-05-27 10:42:55,743 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:43:55 -04)" (scheduled at 2025-05-27 10:42:55.735901-04:00)
+2025-05-27 10:42:55,747 INFO:Tokens eliminados: 0
+2025-05-27 10:42:55,748 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:43:55 -04)" executed successfully
+2025-05-27 10:43:55,744 DEBUG:Looking for jobs to run
+2025-05-27 10:43:55,744 DEBUG:Next wakeup is due at 2025-05-27 10:44:55.735901-04:00 (in 59.991393 seconds)
+2025-05-27 10:43:55,744 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:44:55 -04)" (scheduled at 2025-05-27 10:43:55.735901-04:00)
+2025-05-27 10:43:55,748 INFO:Tokens eliminados: 0
+2025-05-27 10:43:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:44:55 -04)" executed successfully
+2025-05-27 10:44:38,459 INFO:192.168.110.94:58620 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:44:38,537 ERROR:2025-05-27 10:44:38,537 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:44:38,537 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:44:38,538 INFO:192.168.110.94:58620 - "POST /login HTTP/1.1" 200
+2025-05-27 10:44:55,748 DEBUG:Looking for jobs to run
+2025-05-27 10:44:55,748 DEBUG:Next wakeup is due at 2025-05-27 10:45:55.735901-04:00 (in 59.986995 seconds)
+2025-05-27 10:44:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:45:55 -04)" (scheduled at 2025-05-27 10:44:55.735901-04:00)
+2025-05-27 10:44:55,754 INFO:Tokens eliminados: 0
+2025-05-27 10:44:55,754 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:45:55 -04)" executed successfully
+2025-05-27 10:45:55,750 DEBUG:Looking for jobs to run
+2025-05-27 10:45:55,750 DEBUG:Next wakeup is due at 2025-05-27 10:46:55.735901-04:00 (in 59.985510 seconds)
+2025-05-27 10:45:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:46:55 -04)" (scheduled at 2025-05-27 10:45:55.735901-04:00)
+2025-05-27 10:45:55,754 INFO:Tokens eliminados: 0
+2025-05-27 10:45:55,754 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:46:55 -04)" executed successfully
+2025-05-27 10:46:45,872 INFO:192.168.110.94:58806 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:46:45,951 ERROR:2025-05-27 10:46:45,951 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:46:45,951 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:46:45,952 INFO:192.168.110.94:58806 - "POST /login HTTP/1.1" 200
+2025-05-27 10:46:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:46:55,737 DEBUG:Next wakeup is due at 2025-05-27 10:47:55.735901-04:00 (in 59.998099 seconds)
+2025-05-27 10:46:55,737 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:47:55 -04)" (scheduled at 2025-05-27 10:46:55.735901-04:00)
+2025-05-27 10:46:55,740 INFO:Tokens eliminados: 0
+2025-05-27 10:46:55,740 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:47:55 -04)" executed successfully
+2025-05-27 10:47:55,745 DEBUG:Looking for jobs to run
+2025-05-27 10:47:55,745 DEBUG:Next wakeup is due at 2025-05-27 10:48:55.735901-04:00 (in 59.989977 seconds)
+2025-05-27 10:47:55,745 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:48:55 -04)" (scheduled at 2025-05-27 10:47:55.735901-04:00)
+2025-05-27 10:47:55,749 INFO:Tokens eliminados: 0
+2025-05-27 10:47:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:48:55 -04)" executed successfully
+2025-05-27 10:48:55,739 DEBUG:Looking for jobs to run
+2025-05-27 10:48:55,739 DEBUG:Next wakeup is due at 2025-05-27 10:49:55.735901-04:00 (in 59.996277 seconds)
+2025-05-27 10:48:55,739 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:49:55 -04)" (scheduled at 2025-05-27 10:48:55.735901-04:00)
+2025-05-27 10:48:55,743 INFO:Tokens eliminados: 0
+2025-05-27 10:48:55,744 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:49:55 -04)" executed successfully
+2025-05-27 10:49:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:49:55,737 DEBUG:Next wakeup is due at 2025-05-27 10:50:55.735901-04:00 (in 59.997942 seconds)
+2025-05-27 10:49:55,737 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:50:55 -04)" (scheduled at 2025-05-27 10:49:55.735901-04:00)
+2025-05-27 10:49:55,744 INFO:Tokens eliminados: 1
+2025-05-27 10:49:55,744 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:50:55 -04)" executed successfully
+2025-05-27 10:50:55,740 DEBUG:Looking for jobs to run
+2025-05-27 10:50:55,740 DEBUG:Next wakeup is due at 2025-05-27 10:51:55.735901-04:00 (in 59.995134 seconds)
+2025-05-27 10:50:55,740 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:51:55 -04)" (scheduled at 2025-05-27 10:50:55.735901-04:00)
+2025-05-27 10:50:55,744 INFO:Tokens eliminados: 0
+2025-05-27 10:50:55,744 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:51:55 -04)" executed successfully
+2025-05-27 10:51:55,737 DEBUG:Looking for jobs to run
+2025-05-27 10:51:55,737 DEBUG:Next wakeup is due at 2025-05-27 10:52:55.735901-04:00 (in 59.998388 seconds)
+2025-05-27 10:51:55,737 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:52:55 -04)" (scheduled at 2025-05-27 10:51:55.735901-04:00)
+2025-05-27 10:51:55,741 INFO:Tokens eliminados: 1
+2025-05-27 10:51:55,742 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:52:55 -04)" executed successfully
+2025-05-27 10:52:41,999 INFO:192.168.110.94:58969 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:52:42,077 ERROR:2025-05-27 10:52:42,077 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:52:42,077 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:52:42,078 INFO:192.168.110.94:58969 - "POST /login HTTP/1.1" 200
+2025-05-27 10:52:55,738 DEBUG:Looking for jobs to run
+2025-05-27 10:52:55,738 DEBUG:Next wakeup is due at 2025-05-27 10:53:55.735901-04:00 (in 59.997778 seconds)
+2025-05-27 10:52:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:53:55 -04)" (scheduled at 2025-05-27 10:52:55.735901-04:00)
+2025-05-27 10:52:55,740 INFO:Tokens eliminados: 0
+2025-05-27 10:52:55,741 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:53:55 -04)" executed successfully
+2025-05-27 10:53:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:53:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:54:55.735901-04:00 (in 59.994146 seconds)
+2025-05-27 10:53:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:54:55 -04)" (scheduled at 2025-05-27 10:53:55.735901-04:00)
+2025-05-27 10:53:55,747 INFO:Tokens eliminados: 0
+2025-05-27 10:53:55,747 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:54:55 -04)" executed successfully
+2025-05-27 10:54:55,738 DEBUG:Looking for jobs to run
+2025-05-27 10:54:55,738 DEBUG:Next wakeup is due at 2025-05-27 10:55:55.735901-04:00 (in 59.997467 seconds)
+2025-05-27 10:54:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:55:55 -04)" (scheduled at 2025-05-27 10:54:55.735901-04:00)
+2025-05-27 10:54:55,742 INFO:Tokens eliminados: 0
+2025-05-27 10:54:55,742 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:55:55 -04)" executed successfully
+2025-05-27 10:55:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:55:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:56:55.735901-04:00 (in 59.994304 seconds)
+2025-05-27 10:55:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:56:55 -04)" (scheduled at 2025-05-27 10:55:55.735901-04:00)
+2025-05-27 10:55:55,746 INFO:Tokens eliminados: 0
+2025-05-27 10:55:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:56:55 -04)" executed successfully
+2025-05-27 10:56:55,739 DEBUG:Looking for jobs to run
+2025-05-27 10:56:55,739 DEBUG:Next wakeup is due at 2025-05-27 10:57:55.735901-04:00 (in 59.996703 seconds)
+2025-05-27 10:56:55,739 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:57:55 -04)" (scheduled at 2025-05-27 10:56:55.735901-04:00)
+2025-05-27 10:56:55,743 INFO:Tokens eliminados: 0
+2025-05-27 10:56:55,743 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:57:55 -04)" executed successfully
+2025-05-27 10:57:55,742 DEBUG:Looking for jobs to run
+2025-05-27 10:57:55,742 DEBUG:Next wakeup is due at 2025-05-27 10:58:55.735901-04:00 (in 59.993217 seconds)
+2025-05-27 10:57:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:58:55 -04)" (scheduled at 2025-05-27 10:57:55.735901-04:00)
+2025-05-27 10:57:55,747 INFO:Tokens eliminados: 1
+2025-05-27 10:57:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:58:55 -04)" executed successfully
+2025-05-27 10:58:55,741 DEBUG:Looking for jobs to run
+2025-05-27 10:58:55,741 DEBUG:Next wakeup is due at 2025-05-27 10:59:55.735901-04:00 (in 59.994613 seconds)
+2025-05-27 10:58:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:59:55 -04)" (scheduled at 2025-05-27 10:58:55.735901-04:00)
+2025-05-27 10:58:55,746 INFO:Tokens eliminados: 0
+2025-05-27 10:58:55,747 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 10:59:55 -04)" executed successfully
+2025-05-27 10:59:07,029 INFO:192.168.110.94:59047 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 10:59:07,114 ERROR:2025-05-27 10:59:07,114 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:59:07,114 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 10:59:07,115 INFO:192.168.110.94:59047 - "POST /login HTTP/1.1" 200
+2025-05-27 10:59:55,752 DEBUG:Looking for jobs to run
+2025-05-27 10:59:55,752 DEBUG:Next wakeup is due at 2025-05-27 11:00:55.735901-04:00 (in 59.983778 seconds)
+2025-05-27 10:59:55,752 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:00:55 -04)" (scheduled at 2025-05-27 10:59:55.735901-04:00)
+2025-05-27 10:59:55,756 INFO:Tokens eliminados: 0
+2025-05-27 10:59:55,756 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:00:55 -04)" executed successfully
+2025-05-27 11:00:55,749 DEBUG:Looking for jobs to run
+2025-05-27 11:00:55,749 DEBUG:Next wakeup is due at 2025-05-27 11:01:55.735901-04:00 (in 59.986340 seconds)
+2025-05-27 11:00:55,749 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:01:55 -04)" (scheduled at 2025-05-27 11:00:55.735901-04:00)
+2025-05-27 11:00:55,755 INFO:Tokens eliminados: 0
+2025-05-27 11:00:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:01:55 -04)" executed successfully
+2025-05-27 11:01:55,751 DEBUG:Looking for jobs to run
+2025-05-27 11:01:55,751 DEBUG:Next wakeup is due at 2025-05-27 11:02:55.735901-04:00 (in 59.984481 seconds)
+2025-05-27 11:01:55,752 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:02:55 -04)" (scheduled at 2025-05-27 11:01:55.735901-04:00)
+2025-05-27 11:01:55,756 INFO:Tokens eliminados: 0
+2025-05-27 11:01:55,757 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:02:55 -04)" executed successfully
+2025-05-27 11:02:55,738 DEBUG:Looking for jobs to run
+2025-05-27 11:02:55,738 DEBUG:Next wakeup is due at 2025-05-27 11:03:55.735901-04:00 (in 59.997232 seconds)
+2025-05-27 11:02:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:03:55 -04)" (scheduled at 2025-05-27 11:02:55.735901-04:00)
+2025-05-27 11:02:55,743 INFO:Tokens eliminados: 0
+2025-05-27 11:02:55,743 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:03:55 -04)" executed successfully
+2025-05-27 11:03:55,744 DEBUG:Looking for jobs to run
+2025-05-27 11:03:55,745 DEBUG:Next wakeup is due at 2025-05-27 11:04:55.735901-04:00 (in 59.990542 seconds)
+2025-05-27 11:03:55,745 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:04:55 -04)" (scheduled at 2025-05-27 11:03:55.735901-04:00)
+2025-05-27 11:03:55,749 INFO:Tokens eliminados: 0
+2025-05-27 11:03:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:04:55 -04)" executed successfully
+2025-05-27 11:04:55,747 DEBUG:Looking for jobs to run
+2025-05-27 11:04:55,747 DEBUG:Next wakeup is due at 2025-05-27 11:05:55.735901-04:00 (in 59.988021 seconds)
+2025-05-27 11:04:55,747 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:05:55 -04)" (scheduled at 2025-05-27 11:04:55.735901-04:00)
+2025-05-27 11:04:55,753 INFO:Tokens eliminados: 1
+2025-05-27 11:04:55,753 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:05:55 -04)" executed successfully
+2025-05-27 11:05:55,742 DEBUG:Looking for jobs to run
+2025-05-27 11:05:55,743 DEBUG:Next wakeup is due at 2025-05-27 11:06:55.735901-04:00 (in 59.992315 seconds)
+2025-05-27 11:05:55,743 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:06:55 -04)" (scheduled at 2025-05-27 11:05:55.735901-04:00)
+2025-05-27 11:05:55,747 INFO:Tokens eliminados: 0
+2025-05-27 11:05:55,747 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:06:55 -04)" executed successfully
+2025-05-27 11:06:55,745 DEBUG:Looking for jobs to run
+2025-05-27 11:06:55,745 DEBUG:Next wakeup is due at 2025-05-27 11:07:55.735901-04:00 (in 59.990638 seconds)
+2025-05-27 11:06:55,745 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:07:55 -04)" (scheduled at 2025-05-27 11:06:55.735901-04:00)
+2025-05-27 11:06:55,750 INFO:Tokens eliminados: 0
+2025-05-27 11:06:55,750 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:07:55 -04)" executed successfully
+2025-05-27 11:07:55,750 DEBUG:Looking for jobs to run
+2025-05-27 11:07:55,750 DEBUG:Next wakeup is due at 2025-05-27 11:08:55.735901-04:00 (in 59.985302 seconds)
+2025-05-27 11:07:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:08:55 -04)" (scheduled at 2025-05-27 11:07:55.735901-04:00)
+2025-05-27 11:07:55,754 INFO:Tokens eliminados: 0
+2025-05-27 11:07:55,754 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:08:55 -04)" executed successfully
+2025-05-27 11:08:55,747 DEBUG:Looking for jobs to run
+2025-05-27 11:08:55,747 DEBUG:Next wakeup is due at 2025-05-27 11:09:55.735901-04:00 (in 59.988601 seconds)
+2025-05-27 11:08:55,747 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:09:55 -04)" (scheduled at 2025-05-27 11:08:55.735901-04:00)
+2025-05-27 11:08:55,752 INFO:Tokens eliminados: 0
+2025-05-27 11:08:55,752 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:09:55 -04)" executed successfully
+2025-05-27 11:09:55,746 DEBUG:Looking for jobs to run
+2025-05-27 11:09:55,746 DEBUG:Next wakeup is due at 2025-05-27 11:10:55.735901-04:00 (in 59.989260 seconds)
+2025-05-27 11:09:55,746 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:10:55 -04)" (scheduled at 2025-05-27 11:09:55.735901-04:00)
+2025-05-27 11:09:55,750 INFO:Tokens eliminados: 0
+2025-05-27 11:09:55,751 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:10:55 -04)" executed successfully
+2025-05-27 11:10:55,750 DEBUG:Looking for jobs to run
+2025-05-27 11:10:55,750 DEBUG:Next wakeup is due at 2025-05-27 11:11:55.735901-04:00 (in 59.985629 seconds)
+2025-05-27 11:10:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:11:55 -04)" (scheduled at 2025-05-27 11:10:55.735901-04:00)
+2025-05-27 11:10:55,754 INFO:Tokens eliminados: 0
+2025-05-27 11:10:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:11:55 -04)" executed successfully
+2025-05-27 11:11:55,747 DEBUG:Looking for jobs to run
+2025-05-27 11:11:55,747 DEBUG:Next wakeup is due at 2025-05-27 11:12:55.735901-04:00 (in 59.988845 seconds)
+2025-05-27 11:11:55,748 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:12:55 -04)" (scheduled at 2025-05-27 11:11:55.735901-04:00)
+2025-05-27 11:11:55,751 INFO:Tokens eliminados: 0
+2025-05-27 11:11:55,751 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:12:55 -04)" executed successfully
+2025-05-27 11:12:55,738 DEBUG:Looking for jobs to run
+2025-05-27 11:12:55,738 DEBUG:Next wakeup is due at 2025-05-27 11:13:55.735901-04:00 (in 59.997192 seconds)
+2025-05-27 11:12:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:13:55 -04)" (scheduled at 2025-05-27 11:12:55.735901-04:00)
+2025-05-27 11:12:55,743 INFO:Tokens eliminados: 0
+2025-05-27 11:12:55,743 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:13:55 -04)" executed successfully
+2025-05-27 11:13:55,751 DEBUG:Looking for jobs to run
+2025-05-27 11:13:55,751 DEBUG:Next wakeup is due at 2025-05-27 11:14:55.735901-04:00 (in 59.984516 seconds)
+2025-05-27 11:13:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:14:55 -04)" (scheduled at 2025-05-27 11:13:55.735901-04:00)
+2025-05-27 11:13:55,755 INFO:Tokens eliminados: 0
+2025-05-27 11:13:55,757 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:14:55 -04)" executed successfully
+2025-05-27 11:14:55,741 DEBUG:Looking for jobs to run
+2025-05-27 11:14:55,741 DEBUG:Next wakeup is due at 2025-05-27 11:15:55.735901-04:00 (in 59.994277 seconds)
+2025-05-27 11:14:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:15:55 -04)" (scheduled at 2025-05-27 11:14:55.735901-04:00)
+2025-05-27 11:14:55,746 INFO:Tokens eliminados: 0
+2025-05-27 11:14:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:15:55 -04)" executed successfully
+2025-05-27 11:15:55,741 DEBUG:Looking for jobs to run
+2025-05-27 11:15:55,741 DEBUG:Next wakeup is due at 2025-05-27 11:16:55.735901-04:00 (in 59.994587 seconds)
+2025-05-27 11:15:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:16:55 -04)" (scheduled at 2025-05-27 11:15:55.735901-04:00)
+2025-05-27 11:15:55,745 INFO:Tokens eliminados: 0
+2025-05-27 11:15:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:16:55 -04)" executed successfully
+2025-05-27 11:16:55,751 DEBUG:Looking for jobs to run
+2025-05-27 11:16:55,751 DEBUG:Next wakeup is due at 2025-05-27 11:17:55.735901-04:00 (in 59.984552 seconds)
+2025-05-27 11:16:55,751 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:17:55 -04)" (scheduled at 2025-05-27 11:16:55.735901-04:00)
+2025-05-27 11:16:55,755 INFO:Tokens eliminados: 0
+2025-05-27 11:16:55,756 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:17:55 -04)" executed successfully
+2025-05-27 11:17:55,745 DEBUG:Looking for jobs to run
+2025-05-27 11:17:55,745 DEBUG:Next wakeup is due at 2025-05-27 11:18:55.735901-04:00 (in 59.990065 seconds)
+2025-05-27 11:17:55,745 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:18:55 -04)" (scheduled at 2025-05-27 11:17:55.735901-04:00)
+2025-05-27 11:17:55,750 INFO:Tokens eliminados: 0
+2025-05-27 11:17:55,750 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:18:55 -04)" executed successfully
+2025-05-27 11:18:55,751 DEBUG:Looking for jobs to run
+2025-05-27 11:18:55,752 DEBUG:Next wakeup is due at 2025-05-27 11:19:55.735901-04:00 (in 59.983704 seconds)
+2025-05-27 11:18:55,752 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:19:55 -04)" (scheduled at 2025-05-27 11:18:55.735901-04:00)
+2025-05-27 11:18:55,755 INFO:Tokens eliminados: 0
+2025-05-27 11:18:55,756 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:19:55 -04)" executed successfully
+2025-05-27 11:19:55,746 DEBUG:Looking for jobs to run
+2025-05-27 11:19:55,746 DEBUG:Next wakeup is due at 2025-05-27 11:20:55.735901-04:00 (in 59.989892 seconds)
+2025-05-27 11:19:55,746 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:20:55 -04)" (scheduled at 2025-05-27 11:19:55.735901-04:00)
+2025-05-27 11:19:55,750 INFO:Tokens eliminados: 0
+2025-05-27 11:19:55,750 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:20:55 -04)" executed successfully
+2025-05-27 11:20:55,747 DEBUG:Looking for jobs to run
+2025-05-27 11:20:55,747 DEBUG:Next wakeup is due at 2025-05-27 11:21:55.735901-04:00 (in 59.988571 seconds)
+2025-05-27 11:20:55,747 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:21:55 -04)" (scheduled at 2025-05-27 11:20:55.735901-04:00)
+2025-05-27 11:20:55,751 INFO:Tokens eliminados: 0
+2025-05-27 11:20:55,751 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:21:55 -04)" executed successfully
+2025-05-27 11:21:55,739 DEBUG:Looking for jobs to run
+2025-05-27 11:21:55,739 DEBUG:Next wakeup is due at 2025-05-27 11:22:55.735901-04:00 (in 59.996250 seconds)
+2025-05-27 11:21:55,740 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:22:55 -04)" (scheduled at 2025-05-27 11:21:55.735901-04:00)
+2025-05-27 11:21:55,744 INFO:Tokens eliminados: 0
+2025-05-27 11:21:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:22:55 -04)" executed successfully
+2025-05-27 11:22:55,741 DEBUG:Looking for jobs to run
+2025-05-27 11:22:55,741 DEBUG:Next wakeup is due at 2025-05-27 11:23:55.735901-04:00 (in 59.994577 seconds)
+2025-05-27 11:22:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:23:55 -04)" (scheduled at 2025-05-27 11:22:55.735901-04:00)
+2025-05-27 11:22:55,745 INFO:Tokens eliminados: 0
+2025-05-27 11:22:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:23:55 -04)" executed successfully
+2025-05-27 11:23:55,742 DEBUG:Looking for jobs to run
+2025-05-27 11:23:55,742 DEBUG:Next wakeup is due at 2025-05-27 11:24:55.735901-04:00 (in 59.993529 seconds)
+2025-05-27 11:23:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:24:55 -04)" (scheduled at 2025-05-27 11:23:55.735901-04:00)
+2025-05-27 11:23:55,746 INFO:Tokens eliminados: 0
+2025-05-27 11:23:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:24:55 -04)" executed successfully
+2025-05-27 11:24:55,738 DEBUG:Looking for jobs to run
+2025-05-27 11:24:55,738 DEBUG:Next wakeup is due at 2025-05-27 11:25:55.735901-04:00 (in 59.997794 seconds)
+2025-05-27 11:24:55,738 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:25:55 -04)" (scheduled at 2025-05-27 11:24:55.735901-04:00)
+2025-05-27 11:24:55,742 INFO:Tokens eliminados: 0
+2025-05-27 11:24:55,742 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:25:55 -04)" executed successfully
+2025-05-27 11:25:55,751 DEBUG:Looking for jobs to run
+2025-05-27 11:25:55,751 DEBUG:Next wakeup is due at 2025-05-27 11:26:55.735901-04:00 (in 59.984821 seconds)
+2025-05-27 11:25:55,752 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:26:55 -04)" (scheduled at 2025-05-27 11:25:55.735901-04:00)
+2025-05-27 11:25:55,755 INFO:Tokens eliminados: 0
+2025-05-27 11:25:55,756 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:26:55 -04)" executed successfully
+2025-05-27 11:26:55,743 DEBUG:Looking for jobs to run
+2025-05-27 11:26:55,743 DEBUG:Next wakeup is due at 2025-05-27 11:27:55.735901-04:00 (in 59.992187 seconds)
+2025-05-27 11:26:55,743 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:27:55 -04)" (scheduled at 2025-05-27 11:26:55.735901-04:00)
+2025-05-27 11:26:55,748 INFO:Tokens eliminados: 0
+2025-05-27 11:26:55,748 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:27:55 -04)" executed successfully
+2025-05-27 11:27:36,114 INFO:192.168.110.94:60085 - "OPTIONS /login HTTP/1.1" 200
+2025-05-27 11:27:36,196 ERROR:2025-05-27 11:27:36,196 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 11:27:36,196 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-27 11:27:36,198 INFO:192.168.110.94:60085 - "POST /login HTTP/1.1" 200
+2025-05-27 11:27:55,745 DEBUG:Looking for jobs to run
+2025-05-27 11:27:55,745 DEBUG:Next wakeup is due at 2025-05-27 11:28:55.735901-04:00 (in 59.990203 seconds)
+2025-05-27 11:27:55,745 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:28:55 -04)" (scheduled at 2025-05-27 11:27:55.735901-04:00)
+2025-05-27 11:27:55,749 INFO:Tokens eliminados: 0
+2025-05-27 11:27:55,750 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:28:55 -04)" executed successfully
+2025-05-27 11:28:55,741 DEBUG:Looking for jobs to run
+2025-05-27 11:28:55,741 DEBUG:Next wakeup is due at 2025-05-27 11:29:55.735901-04:00 (in 59.994552 seconds)
+2025-05-27 11:28:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:29:55 -04)" (scheduled at 2025-05-27 11:28:55.735901-04:00)
+2025-05-27 11:28:55,745 INFO:Tokens eliminados: 0
+2025-05-27 11:28:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:29:55 -04)" executed successfully
+2025-05-27 11:29:55,741 DEBUG:Looking for jobs to run
+2025-05-27 11:29:55,741 DEBUG:Next wakeup is due at 2025-05-27 11:30:55.735901-04:00 (in 59.994304 seconds)
+2025-05-27 11:29:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:30:55 -04)" (scheduled at 2025-05-27 11:29:55.735901-04:00)
+2025-05-27 11:29:55,745 INFO:Tokens eliminados: 0
+2025-05-27 11:29:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:30:55 -04)" executed successfully
+2025-05-27 11:30:55,749 DEBUG:Looking for jobs to run
+2025-05-27 11:30:55,749 DEBUG:Next wakeup is due at 2025-05-27 11:31:55.735901-04:00 (in 59.986621 seconds)
+2025-05-27 11:30:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:31:55 -04)" (scheduled at 2025-05-27 11:30:55.735901-04:00)
+2025-05-27 11:30:55,754 INFO:Tokens eliminados: 0
+2025-05-27 11:30:55,754 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:31:55 -04)" executed successfully
+2025-05-27 11:31:55,744 DEBUG:Looking for jobs to run
+2025-05-27 11:31:55,744 DEBUG:Next wakeup is due at 2025-05-27 11:32:55.735901-04:00 (in 59.991833 seconds)
+2025-05-27 11:31:55,744 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:32:55 -04)" (scheduled at 2025-05-27 11:31:55.735901-04:00)
+2025-05-27 11:31:55,748 INFO:Tokens eliminados: 0
+2025-05-27 11:31:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:32:55 -04)" executed successfully
+2025-05-27 11:32:55,742 DEBUG:Looking for jobs to run
+2025-05-27 11:32:55,742 DEBUG:Next wakeup is due at 2025-05-27 11:33:55.735901-04:00 (in 59.993789 seconds)
+2025-05-27 11:32:55,742 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:33:55 -04)" (scheduled at 2025-05-27 11:32:55.735901-04:00)
+2025-05-27 11:32:55,746 INFO:Tokens eliminados: 1
+2025-05-27 11:32:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:33:55 -04)" executed successfully
+2025-05-27 11:33:55,742 DEBUG:Looking for jobs to run
+2025-05-27 11:33:55,743 DEBUG:Next wakeup is due at 2025-05-27 11:34:55.735901-04:00 (in 59.992407 seconds)
+2025-05-27 11:33:55,743 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:34:55 -04)" (scheduled at 2025-05-27 11:33:55.735901-04:00)
+2025-05-27 11:33:55,746 INFO:Tokens eliminados: 0
+2025-05-27 11:33:55,748 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:34:55 -04)" executed successfully
+2025-05-27 11:34:55,741 DEBUG:Looking for jobs to run
+2025-05-27 11:34:55,741 DEBUG:Next wakeup is due at 2025-05-27 11:35:55.735901-04:00 (in 59.994059 seconds)
+2025-05-27 11:34:55,741 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:35:55 -04)" (scheduled at 2025-05-27 11:34:55.735901-04:00)
+2025-05-27 11:34:55,745 INFO:Tokens eliminados: 0
+2025-05-27 11:34:55,746 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:35:55 -04)" executed successfully
+2025-05-27 11:35:55,740 DEBUG:Looking for jobs to run
+2025-05-27 11:35:55,740 DEBUG:Next wakeup is due at 2025-05-27 11:36:55.735901-04:00 (in 59.995776 seconds)
+2025-05-27 11:35:55,740 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:36:55 -04)" (scheduled at 2025-05-27 11:35:55.735901-04:00)
+2025-05-27 11:35:55,744 INFO:Tokens eliminados: 0
+2025-05-27 11:35:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:36:55 -04)" executed successfully
+2025-05-27 11:36:55,740 DEBUG:Looking for jobs to run
+2025-05-27 11:36:55,740 DEBUG:Next wakeup is due at 2025-05-27 11:37:55.735901-04:00 (in 59.995642 seconds)
+2025-05-27 11:36:55,740 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:37:55 -04)" (scheduled at 2025-05-27 11:36:55.735901-04:00)
+2025-05-27 11:36:55,743 INFO:Tokens eliminados: 0
+2025-05-27 11:36:55,745 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:37:55 -04)" executed successfully
+2025-05-27 11:37:55,738 DEBUG:Looking for jobs to run
+2025-05-27 11:37:55,738 DEBUG:Next wakeup is due at 2025-05-27 11:38:55.735901-04:00 (in 59.996963 seconds)
+2025-05-27 11:37:55,739 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:38:55 -04)" (scheduled at 2025-05-27 11:37:55.735901-04:00)
+2025-05-27 11:37:55,743 INFO:Tokens eliminados: 0
+2025-05-27 11:37:55,743 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:38:55 -04)" executed successfully
+2025-05-27 11:38:55,752 DEBUG:Looking for jobs to run
+2025-05-27 11:38:55,753 DEBUG:Next wakeup is due at 2025-05-27 11:39:55.735901-04:00 (in 59.982170 seconds)
+2025-05-27 11:38:55,753 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:39:55 -04)" (scheduled at 2025-05-27 11:38:55.735901-04:00)
+2025-05-27 11:38:55,758 INFO:Tokens eliminados: 0
+2025-05-27 11:38:55,758 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:39:55 -04)" executed successfully
+2025-05-27 11:39:55,745 DEBUG:Looking for jobs to run
+2025-05-27 11:39:55,745 DEBUG:Next wakeup is due at 2025-05-27 11:40:55.735901-04:00 (in 59.990795 seconds)
+2025-05-27 11:39:55,745 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:40:55 -04)" (scheduled at 2025-05-27 11:39:55.735901-04:00)
+2025-05-27 11:39:55,748 INFO:Tokens eliminados: 0
+2025-05-27 11:39:55,749 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:40:55 -04)" executed successfully
+2025-05-27 11:40:12,763 INFO:192.168.110.94:60169 - "OPTIONS /register HTTP/1.1" 200
+2025-05-27 11:40:12,850 ERROR:2025-05-27 11:40:12,850 - INFO - Nuevo usuario registrado: pepe con RNC: 046582534
+2025-05-27 11:40:12,850 INFO:Nuevo usuario registrado: pepe con RNC: 046582534
+2025-05-27 11:40:12,850 INFO:192.168.110.94:60169 - "POST /register HTTP/1.1" 201
+2025-05-27 11:40:55,750 DEBUG:Looking for jobs to run
+2025-05-27 11:40:55,750 DEBUG:Next wakeup is due at 2025-05-27 11:41:55.735901-04:00 (in 59.985388 seconds)
+2025-05-27 11:40:55,750 INFO:Running job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:41:55 -04)" (scheduled at 2025-05-27 11:40:55.735901-04:00)
+2025-05-27 11:40:55,755 INFO:Tokens eliminados: 0
+2025-05-27 11:40:55,755 INFO:Job "delete_expired_tokens (trigger: interval[0:01:00], next run at: 2025-05-27 11:41:55 -04)" executed successfully

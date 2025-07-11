@@ -1,0 +1,15 @@
+2025-05-23 08:45:58,947 INFO:Configuration loaded from config\config.json
+2025-05-23 08:45:59,077 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-23 08:45:59,077 DEBUG:Looking up time zone info from registry
+2025-05-23 08:45:59,079 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-23 08:45:59,079 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-23 08:45:59,079 INFO:Scheduler started
+2025-05-23 08:45:59,080 DEBUG:Looking for jobs to run
+2025-05-23 08:45:59,080 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-23 08:45:59,080 DEBUG:Next wakeup is due at 2025-05-23 09:45:59.079165-04:00 (in 3599.998830 seconds)
+2025-05-23 08:45:59,083 DEBUG:Using selector: SelectSelector
+2025-05-23 08:45:59,131 INFO:Started server process [19772]
+2025-05-23 08:45:59,131 INFO:Waiting for application startup.
+2025-05-23 08:45:59,131 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-23 08:45:59,131 INFO:Application startup complete.
+2025-05-23 08:45:59,132 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)

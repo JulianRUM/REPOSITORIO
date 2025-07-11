@@ -1,0 +1,1021 @@
+2025-06-18 16:45:17,567 INFO:Configuration loaded from config\config.json
+2025-06-18 16:45:17,786 INFO:Tablas creadas exitosamente o ya existen.
+2025-06-18 16:45:17,786 DEBUG:Looking up time zone info from registry
+2025-06-18 16:45:17,789 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-18 16:45:17,789 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-06-18 16:45:17,789 INFO:Scheduler started
+2025-06-18 16:45:17,790 DEBUG:Looking for jobs to run
+2025-06-18 16:45:17,790 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-06-18 16:45:17,790 DEBUG:Next wakeup is due at 2025-06-18 17:15:17.789033-04:00 (in 1799.998994 seconds)
+2025-06-18 16:45:17,796 DEBUG:Using selector: SelectSelector
+2025-06-18 16:45:17,840 INFO:Started server process [21436]
+2025-06-18 16:45:17,840 INFO:Waiting for application startup.
+2025-06-18 16:45:17,840 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-06-18 16:45:17,840 INFO:Application startup complete.
+2025-06-18 16:45:17,841 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-06-18 17:15:17,794 DEBUG:Looking for jobs to run
+2025-06-18 17:15:17,796 INFO:Running job "delete_expired_tokens (trigger: interval[0:30:00], next run at: 2025-06-18 17:15:17 -04)" (scheduled at 2025-06-18 17:15:17.789033-04:00)
+2025-06-18 17:15:17,796 DEBUG:Next wakeup is due at 2025-06-18 17:45:17.789033-04:00 (in 1799.992994 seconds)
+2025-06-18 17:15:17,926 INFO:Tokens eliminados: 0
+2025-06-18 17:15:17,927 INFO:Job "delete_expired_tokens (trigger: interval[0:30:00], next run at: 2025-06-18 17:45:17 -04)" executed successfully
+2025-06-18 17:45:17,796 DEBUG:Looking for jobs to run
+2025-06-18 17:45:17,797 DEBUG:Next wakeup is due at 2025-06-18 18:15:17.789033-04:00 (in 1799.991613 seconds)
+2025-06-18 17:45:17,797 INFO:Running job "delete_expired_tokens (trigger: interval[0:30:00], next run at: 2025-06-18 18:15:17 -04)" (scheduled at 2025-06-18 17:45:17.789033-04:00)
+2025-06-18 17:45:17,853 INFO:Tokens eliminados: 0
+2025-06-18 17:45:17,854 INFO:Job "delete_expired_tokens (trigger: interval[0:30:00], next run at: 2025-06-18 18:15:17 -04)" executed successfully
+2025-06-19 11:51:26,452 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 11:51:26,452 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 11:51:26,452 INFO:Scheduler started
+2025-06-19 11:52:04,109 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 11:52:04,109 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 11:52:04,109 INFO:Scheduler started
+2025-06-19 11:55:23,114 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 11:55:23,114 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 11:55:23,115 INFO:Scheduler started
+2025-06-19 12:05:09,940 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:05:09,940 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:05:09,941 INFO:Scheduler started
+2025-06-19 12:09:17,585 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:09:17,585 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:09:17,585 INFO:Scheduler started
+2025-06-19 12:11:56,664 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:11:56,664 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:11:56,665 INFO:Scheduler started
+2025-06-19 12:13:04,201 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:13:04,201 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:13:04,201 INFO:Scheduler started
+2025-06-19 12:15:26,022 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:15:26,022 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:15:26,022 INFO:Scheduler started
+2025-06-19 12:17:50,945 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:17:50,945 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:17:50,945 INFO:Scheduler started
+2025-06-19 12:21:35,714 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:21:35,715 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:21:35,715 INFO:Scheduler started
+2025-06-19 12:22:54,679 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:22:54,679 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:22:54,679 INFO:Scheduler started
+2025-06-19 12:25:00,326 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:25:00,328 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:25:00,328 INFO:Scheduler started
+2025-06-19 12:28:22,909 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:28:22,909 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:28:22,909 INFO:Scheduler started
+2025-06-19 12:28:39,835 INFO:Nuevo usuario registrado: admin con RNC: 131709745
+2025-06-19 12:36:47,993 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:36:47,993 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:36:47,993 INFO:Scheduler started
+2025-06-19 12:41:07,992 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:41:07,993 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:41:07,993 INFO:Scheduler started
+2025-06-19 12:42:51,382 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:42:51,382 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:42:51,382 INFO:Scheduler started
+2025-06-19 12:49:33,980 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:49:33,980 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:49:33,980 INFO:Scheduler started
+2025-06-19 12:49:53,700 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 12:49:53,700 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 12:49:53,702 INFO:Scheduler started
+2025-06-19 12:50:53,710 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:50:53 -04)" (scheduled at 2025-06-19 12:50:53.700661-04:00)
+2025-06-19 12:50:53,756 INFO:Tokens eliminados: 0
+2025-06-19 12:50:53,757 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:51:53 -04)" executed successfully
+2025-06-19 12:51:53,705 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:52:53 -04)" (scheduled at 2025-06-19 12:51:53.700661-04:00)
+2025-06-19 12:51:53,745 INFO:Tokens eliminados: 0
+2025-06-19 12:51:53,747 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:52:53 -04)" executed successfully
+2025-06-19 12:52:53,701 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:53:53 -04)" (scheduled at 2025-06-19 12:52:53.700661-04:00)
+2025-06-19 12:52:53,705 INFO:Tokens eliminados: 0
+2025-06-19 12:52:53,707 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:53:53 -04)" executed successfully
+2025-06-19 12:53:53,710 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:54:53 -04)" (scheduled at 2025-06-19 12:53:53.700661-04:00)
+2025-06-19 12:53:53,755 INFO:Tokens eliminados: 0
+2025-06-19 12:53:53,763 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:54:53 -04)" executed successfully
+2025-06-19 12:54:53,712 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:55:53 -04)" (scheduled at 2025-06-19 12:54:53.700661-04:00)
+2025-06-19 12:54:53,750 INFO:Tokens eliminados: 0
+2025-06-19 12:54:53,752 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:55:53 -04)" executed successfully
+2025-06-19 12:55:53,701 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:56:53 -04)" (scheduled at 2025-06-19 12:55:53.700661-04:00)
+2025-06-19 12:55:53,707 INFO:Tokens eliminados: 0
+2025-06-19 12:55:53,709 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:56:53 -04)" executed successfully
+2025-06-19 12:56:53,710 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:57:53 -04)" (scheduled at 2025-06-19 12:56:53.700661-04:00)
+2025-06-19 12:56:53,747 INFO:Tokens eliminados: 0
+2025-06-19 12:56:53,748 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:57:53 -04)" executed successfully
+2025-06-19 12:57:53,712 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:58:53 -04)" (scheduled at 2025-06-19 12:57:53.700661-04:00)
+2025-06-19 12:57:53,791 INFO:Tokens eliminados: 0
+2025-06-19 12:57:53,792 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:58:53 -04)" executed successfully
+2025-06-19 12:58:53,707 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:59:53 -04)" (scheduled at 2025-06-19 12:58:53.700661-04:00)
+2025-06-19 12:58:53,750 INFO:Tokens eliminados: 0
+2025-06-19 12:58:53,753 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 12:59:53 -04)" executed successfully
+2025-06-19 12:59:53,704 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:00:53 -04)" (scheduled at 2025-06-19 12:59:53.700661-04:00)
+2025-06-19 12:59:53,807 INFO:Tokens eliminados: 0
+2025-06-19 12:59:53,810 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:00:53 -04)" executed successfully
+2025-06-19 13:00:53,705 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:01:53 -04)" (scheduled at 2025-06-19 13:00:53.700661-04:00)
+2025-06-19 13:00:53,791 INFO:Tokens eliminados: 0
+2025-06-19 13:00:53,793 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:01:53 -04)" executed successfully
+2025-06-19 13:01:53,707 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:02:53 -04)" (scheduled at 2025-06-19 13:01:53.700661-04:00)
+2025-06-19 13:01:53,714 INFO:Tokens eliminados: 0
+2025-06-19 13:01:53,715 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:02:53 -04)" executed successfully
+2025-06-19 13:02:53,712 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:03:53 -04)" (scheduled at 2025-06-19 13:02:53.700661-04:00)
+2025-06-19 13:02:53,750 INFO:Tokens eliminados: 0
+2025-06-19 13:02:53,751 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:03:53 -04)" executed successfully
+2025-06-19 13:03:53,712 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:04:53 -04)" (scheduled at 2025-06-19 13:03:53.700661-04:00)
+2025-06-19 13:03:53,747 INFO:Tokens eliminados: 0
+2025-06-19 13:03:53,747 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:04:53 -04)" executed successfully
+2025-06-19 13:04:53,703 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:05:53 -04)" (scheduled at 2025-06-19 13:04:53.700661-04:00)
+2025-06-19 13:04:53,739 INFO:Tokens eliminados: 0
+2025-06-19 13:04:53,740 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:05:53 -04)" executed successfully
+2025-06-19 13:04:55,741 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 13:04:55,741 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 13:04:55,741 INFO:Scheduler started
+2025-06-19 13:04:57,557 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 13:04:57,557 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 13:04:57,557 INFO:Scheduler started
+2025-06-19 13:05:57,568 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:05:57 -04)" (scheduled at 2025-06-19 13:05:57.557133-04:00)
+2025-06-19 13:05:57,570 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:05:57.570745
+2025-06-19 13:05:57,604 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:05:57,607 INFO:Tokens eliminados: 0
+2025-06-19 13:05:57,609 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:06:57 -04)" executed successfully
+2025-06-19 13:06:57,558 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:07:57 -04)" (scheduled at 2025-06-19 13:06:57.557133-04:00)
+2025-06-19 13:06:57,559 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:06:57.559994
+2025-06-19 13:06:57,655 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:06:57,658 INFO:Tokens eliminados: 0
+2025-06-19 13:06:57,660 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:07:57 -04)" executed successfully
+2025-06-19 13:07:46,233 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 13:07:46,234 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 13:07:46,234 INFO:Scheduler started
+2025-06-19 13:08:46,246 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:08:46 -04)" (scheduled at 2025-06-19 13:08:46.233922-04:00)
+2025-06-19 13:08:46,249 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:08:46.249806
+2025-06-19 13:08:46,325 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:08:46,328 INFO:Tokens eliminados: 0
+2025-06-19 13:08:46,330 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:09:46 -04)" executed successfully
+2025-06-19 13:09:46,237 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:10:46 -04)" (scheduled at 2025-06-19 13:09:46.233922-04:00)
+2025-06-19 13:09:46,238 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:09:46.238351
+2025-06-19 13:09:46,242 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:09:46,244 INFO:Tokens eliminados: 0
+2025-06-19 13:09:46,245 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:10:46 -04)" executed successfully
+2025-06-19 13:10:46,239 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:11:46 -04)" (scheduled at 2025-06-19 13:10:46.233922-04:00)
+2025-06-19 13:10:46,240 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:10:46.240266
+2025-06-19 13:10:46,278 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:10:46,280 INFO:Tokens eliminados: 0
+2025-06-19 13:10:46,282 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:11:46 -04)" executed successfully
+2025-06-19 13:11:46,236 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:12:46 -04)" (scheduled at 2025-06-19 13:11:46.233922-04:00)
+2025-06-19 13:11:46,238 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:11:46.238166
+2025-06-19 13:11:46,283 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:11:46,287 INFO:Tokens eliminados: 0
+2025-06-19 13:11:46,289 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:12:46 -04)" executed successfully
+2025-06-19 13:12:46,250 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:13:46 -04)" (scheduled at 2025-06-19 13:12:46.233922-04:00)
+2025-06-19 13:12:46,251 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:12:46.251634
+2025-06-19 13:12:46,301 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:12:46,305 INFO:Tokens eliminados: 0
+2025-06-19 13:12:46,306 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:13:46 -04)" executed successfully
+2025-06-19 13:13:46,243 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:14:46 -04)" (scheduled at 2025-06-19 13:13:46.233922-04:00)
+2025-06-19 13:13:46,245 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:13:46.245218
+2025-06-19 13:13:46,294 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:13:46,298 INFO:Tokens eliminados: 0
+2025-06-19 13:13:46,300 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:14:46 -04)" executed successfully
+2025-06-19 13:14:46,236 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:15:46 -04)" (scheduled at 2025-06-19 13:14:46.233922-04:00)
+2025-06-19 13:14:46,237 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:14:46.237740
+2025-06-19 13:14:46,272 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:14:46,274 INFO:Tokens eliminados: 0
+2025-06-19 13:14:46,275 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:15:46 -04)" executed successfully
+2025-06-19 13:15:46,245 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:16:46 -04)" (scheduled at 2025-06-19 13:15:46.233922-04:00)
+2025-06-19 13:15:46,246 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:15:46.246551
+2025-06-19 13:15:46,308 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:15:46,312 INFO:Tokens eliminados: 0
+2025-06-19 13:15:46,313 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:16:46 -04)" executed successfully
+2025-06-19 13:16:46,239 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:17:46 -04)" (scheduled at 2025-06-19 13:16:46.233922-04:00)
+2025-06-19 13:16:46,240 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:16:46.240590
+2025-06-19 13:16:46,257 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:16:46,260 INFO:Tokens eliminados: 0
+2025-06-19 13:16:46,262 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:17:46 -04)" executed successfully
+2025-06-19 13:17:46,248 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:18:46 -04)" (scheduled at 2025-06-19 13:17:46.233922-04:00)
+2025-06-19 13:17:46,250 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:17:46.250327
+2025-06-19 13:17:46,282 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:17:46,285 INFO:Tokens eliminados: 0
+2025-06-19 13:17:46,286 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:18:46 -04)" executed successfully
+2025-06-19 13:18:46,240 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:19:46 -04)" (scheduled at 2025-06-19 13:18:46.233922-04:00)
+2025-06-19 13:18:46,242 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:18:46.242322
+2025-06-19 13:18:46,333 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:18:46,339 INFO:Tokens eliminados: 0
+2025-06-19 13:18:46,340 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:19:46 -04)" executed successfully
+2025-06-19 13:19:46,239 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:20:46 -04)" (scheduled at 2025-06-19 13:19:46.233922-04:00)
+2025-06-19 13:19:46,241 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:19:46.241656
+2025-06-19 13:19:46,299 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:19:46,302 INFO:Tokens eliminados: 0
+2025-06-19 13:19:46,305 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:20:46 -04)" executed successfully
+2025-06-19 13:20:46,245 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:21:46 -04)" (scheduled at 2025-06-19 13:20:46.233922-04:00)
+2025-06-19 13:20:46,246 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:20:46.246867
+2025-06-19 13:20:46,247 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:20:46,252 INFO:Tokens eliminados: 0
+2025-06-19 13:20:46,255 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:21:46 -04)" executed successfully
+2025-06-19 13:21:46,244 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:22:46 -04)" (scheduled at 2025-06-19 13:21:46.233922-04:00)
+2025-06-19 13:21:46,246 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:21:46.246222
+2025-06-19 13:21:46,279 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:21:46,282 INFO:Tokens eliminados: 0
+2025-06-19 13:21:46,283 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:22:46 -04)" executed successfully
+2025-06-19 13:22:46,235 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:23:46 -04)" (scheduled at 2025-06-19 13:22:46.233922-04:00)
+2025-06-19 13:22:46,236 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:22:46.236833
+2025-06-19 13:22:46,337 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:22:46,341 INFO:Tokens eliminados: 0
+2025-06-19 13:22:46,342 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:23:46 -04)" executed successfully
+2025-06-19 13:23:46,244 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:24:46 -04)" (scheduled at 2025-06-19 13:23:46.233922-04:00)
+2025-06-19 13:23:46,246 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:23:46.245217
+2025-06-19 13:23:46,279 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:23:46,282 INFO:Tokens eliminados: 0
+2025-06-19 13:23:46,283 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:24:46 -04)" executed successfully
+2025-06-19 13:24:46,241 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:25:46 -04)" (scheduled at 2025-06-19 13:24:46.233922-04:00)
+2025-06-19 13:24:46,243 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:24:46.243708
+2025-06-19 13:24:46,322 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:24:46,324 INFO:Tokens eliminados: 0
+2025-06-19 13:24:46,325 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:25:46 -04)" executed successfully
+2025-06-19 13:25:46,236 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:26:46 -04)" (scheduled at 2025-06-19 13:25:46.233922-04:00)
+2025-06-19 13:25:46,237 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:25:46.237974
+2025-06-19 13:25:46,268 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:25:46,271 INFO:Tokens eliminados: 0
+2025-06-19 13:25:46,272 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:26:46 -04)" executed successfully
+2025-06-19 13:26:46,246 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:27:46 -04)" (scheduled at 2025-06-19 13:26:46.233922-04:00)
+2025-06-19 13:26:46,248 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:26:46.248057
+2025-06-19 13:26:46,277 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:26:46,280 INFO:Tokens eliminados: 0
+2025-06-19 13:26:46,282 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:27:46 -04)" executed successfully
+2025-06-19 13:27:46,239 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:28:46 -04)" (scheduled at 2025-06-19 13:27:46.233922-04:00)
+2025-06-19 13:27:46,240 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:27:46.240487
+2025-06-19 13:27:46,307 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:27:46,310 INFO:Tokens eliminados: 0
+2025-06-19 13:27:46,311 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:28:46 -04)" executed successfully
+2025-06-19 13:28:46,251 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:29:46 -04)" (scheduled at 2025-06-19 13:28:46.233922-04:00)
+2025-06-19 13:28:46,254 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:28:46.254652
+2025-06-19 13:28:46,369 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:28:46,374 INFO:Tokens eliminados: 0
+2025-06-19 13:28:46,375 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:29:46 -04)" executed successfully
+2025-06-19 13:29:46,255 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:30:46 -04)" (scheduled at 2025-06-19 13:29:46.233922-04:00)
+2025-06-19 13:29:46,259 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:29:46.259838
+2025-06-19 13:29:46,354 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:29:46,357 INFO:Tokens eliminados: 0
+2025-06-19 13:29:46,358 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:30:46 -04)" executed successfully
+2025-06-19 13:30:46,242 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:31:46 -04)" (scheduled at 2025-06-19 13:30:46.233922-04:00)
+2025-06-19 13:30:46,244 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:30:46.244725
+2025-06-19 13:30:46,248 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:30:46,253 INFO:Tokens eliminados: 0
+2025-06-19 13:30:46,255 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:31:46 -04)" executed successfully
+2025-06-19 13:31:46,241 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:32:46 -04)" (scheduled at 2025-06-19 13:31:46.233922-04:00)
+2025-06-19 13:31:46,243 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:31:46.243244
+2025-06-19 13:31:46,262 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:31:46,264 INFO:Tokens eliminados: 0
+2025-06-19 13:31:46,267 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:32:46 -04)" executed successfully
+2025-06-19 13:32:46,235 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:33:46 -04)" (scheduled at 2025-06-19 13:32:46.233922-04:00)
+2025-06-19 13:32:46,236 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:32:46.236982
+2025-06-19 13:32:46,276 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:32:46,277 INFO:Tokens eliminados: 0
+2025-06-19 13:32:46,278 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:33:46 -04)" executed successfully
+2025-06-19 13:33:46,241 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:34:46 -04)" (scheduled at 2025-06-19 13:33:46.233922-04:00)
+2025-06-19 13:33:46,242 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:33:46.242620
+2025-06-19 13:33:46,275 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:33:46,277 INFO:Tokens eliminados: 0
+2025-06-19 13:33:46,279 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:34:46 -04)" executed successfully
+2025-06-19 13:34:46,240 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:35:46 -04)" (scheduled at 2025-06-19 13:34:46.233922-04:00)
+2025-06-19 13:34:46,242 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:34:46.242926
+2025-06-19 13:34:46,343 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:34:46,346 INFO:Tokens eliminados: 0
+2025-06-19 13:34:46,348 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:35:46 -04)" executed successfully
+2025-06-19 13:35:46,239 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:36:46 -04)" (scheduled at 2025-06-19 13:35:46.233922-04:00)
+2025-06-19 13:35:46,240 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:35:46.240813
+2025-06-19 13:35:46,306 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:35:46,309 INFO:Tokens eliminados: 0
+2025-06-19 13:35:46,311 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:36:46 -04)" executed successfully
+2025-06-19 13:36:46,240 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:37:46 -04)" (scheduled at 2025-06-19 13:36:46.233922-04:00)
+2025-06-19 13:36:46,241 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:36:46.241778
+2025-06-19 13:36:46,278 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:36:46,281 INFO:Tokens eliminados: 0
+2025-06-19 13:36:46,282 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:37:46 -04)" executed successfully
+2025-06-19 13:37:46,234 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:38:46 -04)" (scheduled at 2025-06-19 13:37:46.233922-04:00)
+2025-06-19 13:37:46,236 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:37:46.236815
+2025-06-19 13:37:46,303 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:37:46,307 INFO:Tokens eliminados: 0
+2025-06-19 13:37:46,308 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:38:46 -04)" executed successfully
+2025-06-19 13:38:46,248 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:39:46 -04)" (scheduled at 2025-06-19 13:38:46.233922-04:00)
+2025-06-19 13:38:46,250 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:38:46.250147
+2025-06-19 13:38:46,335 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:38:46,338 INFO:Tokens eliminados: 0
+2025-06-19 13:38:46,341 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:39:46 -04)" executed successfully
+2025-06-19 13:39:46,246 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:40:46 -04)" (scheduled at 2025-06-19 13:39:46.233922-04:00)
+2025-06-19 13:39:46,247 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:39:46.247038
+2025-06-19 13:39:46,828 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:39:46,831 INFO:Tokens eliminados: 0
+2025-06-19 13:39:46,833 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:40:46 -04)" executed successfully
+2025-06-19 13:40:46,238 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:41:46 -04)" (scheduled at 2025-06-19 13:40:46.233922-04:00)
+2025-06-19 13:40:46,240 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:40:46.240132
+2025-06-19 13:40:46,242 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:40:46,242 INFO:Tokens eliminados: 0
+2025-06-19 13:40:46,243 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:41:46 -04)" executed successfully
+2025-06-19 13:41:46,238 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:42:46 -04)" (scheduled at 2025-06-19 13:41:46.233922-04:00)
+2025-06-19 13:41:46,240 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:41:46.240505
+2025-06-19 13:41:46,325 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:41:46,328 INFO:Tokens eliminados: 0
+2025-06-19 13:41:46,330 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:42:46 -04)" executed successfully
+2025-06-19 13:42:46,242 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:43:46 -04)" (scheduled at 2025-06-19 13:42:46.233922-04:00)
+2025-06-19 13:42:46,243 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:42:46.243642
+2025-06-19 13:42:46,309 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:42:46,311 INFO:Tokens eliminados: 0
+2025-06-19 13:42:46,312 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:43:46 -04)" executed successfully
+2025-06-19 13:43:46,237 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:44:46 -04)" (scheduled at 2025-06-19 13:43:46.233922-04:00)
+2025-06-19 13:43:46,238 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:43:46.238774
+2025-06-19 13:43:46,316 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:43:46,318 INFO:Tokens eliminados: 0
+2025-06-19 13:43:46,320 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:44:46 -04)" executed successfully
+2025-06-19 13:44:46,234 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:45:46 -04)" (scheduled at 2025-06-19 13:44:46.233922-04:00)
+2025-06-19 13:44:46,235 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:44:46.235722
+2025-06-19 13:44:46,301 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:44:46,304 INFO:Tokens eliminados: 0
+2025-06-19 13:44:46,306 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:45:46 -04)" executed successfully
+2025-06-19 13:45:46,240 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:46:46 -04)" (scheduled at 2025-06-19 13:45:46.233922-04:00)
+2025-06-19 13:45:46,242 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:45:46.242497
+2025-06-19 13:45:46,308 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:45:46,311 INFO:Tokens eliminados: 0
+2025-06-19 13:45:46,312 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:46:46 -04)" executed successfully
+2025-06-19 13:46:46,242 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:47:46 -04)" (scheduled at 2025-06-19 13:46:46.233922-04:00)
+2025-06-19 13:46:46,244 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:46:46.244160
+2025-06-19 13:46:46,293 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:46:46,297 INFO:Tokens eliminados: 0
+2025-06-19 13:46:46,299 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:47:46 -04)" executed successfully
+2025-06-19 13:47:46,236 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:48:46 -04)" (scheduled at 2025-06-19 13:47:46.233922-04:00)
+2025-06-19 13:47:46,237 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:47:46.237743
+2025-06-19 13:47:46,300 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:47:46,304 INFO:Tokens eliminados: 0
+2025-06-19 13:47:46,306 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:48:46 -04)" executed successfully
+2025-06-19 13:48:46,238 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:49:46 -04)" (scheduled at 2025-06-19 13:48:46.233922-04:00)
+2025-06-19 13:48:46,239 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:48:46.239845
+2025-06-19 13:48:46,306 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:48:46,308 INFO:Tokens eliminados: 0
+2025-06-19 13:48:46,310 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:49:46 -04)" executed successfully
+2025-06-19 13:49:46,237 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:50:46 -04)" (scheduled at 2025-06-19 13:49:46.233922-04:00)
+2025-06-19 13:49:46,238 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:49:46.238611
+2025-06-19 13:49:46,359 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:49:46,366 INFO:Tokens eliminados: 0
+2025-06-19 13:49:46,369 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:50:46 -04)" executed successfully
+2025-06-19 13:50:46,240 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:51:46 -04)" (scheduled at 2025-06-19 13:50:46.233922-04:00)
+2025-06-19 13:50:46,241 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:50:46.241748
+2025-06-19 13:50:46,360 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:50:46,363 INFO:Tokens eliminados: 0
+2025-06-19 13:50:46,364 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:51:46 -04)" executed successfully
+2025-06-19 13:51:46,242 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:52:46 -04)" (scheduled at 2025-06-19 13:51:46.233922-04:00)
+2025-06-19 13:51:46,243 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:51:46.243331
+2025-06-19 13:51:46,302 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:51:46,304 INFO:Tokens eliminados: 0
+2025-06-19 13:51:46,306 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:52:46 -04)" executed successfully
+2025-06-19 13:52:46,237 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:53:46 -04)" (scheduled at 2025-06-19 13:52:46.233922-04:00)
+2025-06-19 13:52:46,238 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:52:46.238868
+2025-06-19 13:52:46,301 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:52:46,303 INFO:Tokens eliminados: 0
+2025-06-19 13:52:46,305 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:53:46 -04)" executed successfully
+2025-06-19 13:53:46,240 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:54:46 -04)" (scheduled at 2025-06-19 13:53:46.233922-04:00)
+2025-06-19 13:53:46,241 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:53:46.241207
+2025-06-19 13:53:46,304 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:53:46,306 INFO:Tokens eliminados: 0
+2025-06-19 13:53:46,308 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:54:46 -04)" executed successfully
+2025-06-19 13:54:46,243 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:55:46 -04)" (scheduled at 2025-06-19 13:54:46.233922-04:00)
+2025-06-19 13:54:46,243 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:54:46.243084
+2025-06-19 13:54:46,318 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:54:46,320 INFO:Tokens eliminados: 0
+2025-06-19 13:54:46,321 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:55:46 -04)" executed successfully
+2025-06-19 13:54:48,664 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 13:54:48,664 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 13:54:48,664 INFO:Scheduler started
+2025-06-19 13:55:13,088 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 13:55:13,089 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 13:55:13,089 INFO:Scheduler started
+2025-06-19 13:56:13,101 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:56:13 -04)" (scheduled at 2025-06-19 13:56:13.088180-04:00)
+2025-06-19 13:56:13,102 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:56:13.102291
+2025-06-19 13:56:13,118 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 13:56:13,118 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY2MTc1fQ.HzsTvzmVtNMChsQYz22z4tcYaxmV0e1bkTAtUOiTg_w', True, datetime.datetime(2025, 6, 19, 16, 44, 35, 480000))
+2025-06-19 13:56:13,118 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY5MzgwfQ.SWw6TZKiWEAVyFodo66TD2hnIwcxKpMN74GQcHHS0eU', False, datetime.datetime(2025, 6, 19, 16, 43, 0, 167000))
+2025-06-19 13:56:13,120 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:56:13,123 INFO:Tokens eliminados: 0
+2025-06-19 13:56:13,124 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:57:13 -04)" executed successfully
+2025-06-19 13:57:13,092 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:58:13 -04)" (scheduled at 2025-06-19 13:57:13.088180-04:00)
+2025-06-19 13:57:13,093 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:57:13.093688
+2025-06-19 13:57:13,095 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 13:57:13,095 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY2MTc1fQ.HzsTvzmVtNMChsQYz22z4tcYaxmV0e1bkTAtUOiTg_w', True, datetime.datetime(2025, 6, 19, 16, 44, 35, 480000))
+2025-06-19 13:57:13,095 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY5MzgwfQ.SWw6TZKiWEAVyFodo66TD2hnIwcxKpMN74GQcHHS0eU', False, datetime.datetime(2025, 6, 19, 16, 43, 0, 167000))
+2025-06-19 13:57:13,096 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:57:13,099 INFO:Tokens eliminados: 0
+2025-06-19 13:57:13,101 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:58:13 -04)" executed successfully
+2025-06-19 13:58:13,098 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:59:13 -04)" (scheduled at 2025-06-19 13:58:13.088180-04:00)
+2025-06-19 13:58:13,099 INFO:[Depuración] Fecha límite para eliminar tokens: 2025-06-18 17:58:13.099525
+2025-06-19 13:58:13,160 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 13:58:13,160 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY2MTc1fQ.HzsTvzmVtNMChsQYz22z4tcYaxmV0e1bkTAtUOiTg_w', True, datetime.datetime(2025, 6, 19, 16, 44, 35, 480000))
+2025-06-19 13:58:13,160 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY5MzgwfQ.SWw6TZKiWEAVyFodo66TD2hnIwcxKpMN74GQcHHS0eU', False, datetime.datetime(2025, 6, 19, 16, 43, 0, 167000))
+2025-06-19 13:58:13,162 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 13:58:13,164 INFO:Tokens eliminados: 0
+2025-06-19 13:58:13,165 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:59:13 -04)" executed successfully
+2025-06-19 13:58:57,132 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 13:58:57,132 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 13:58:57,133 INFO:Scheduler started
+2025-06-19 13:59:57,134 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 13:59:57 -04)" (scheduled at 2025-06-19 13:59:57.132691-04:00)
+2025-06-19 13:59:57,136 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask)
+2025-06-19 13:59:57,309 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 13:59:57,309 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY2MTc1fQ.HzsTvzmVtNMChsQYz22z4tcYaxmV0e1bkTAtUOiTg_w', True, False, False, True, datetime.datetime(2025, 6, 19, 16, 44, 35, 480000))
+2025-06-19 13:59:57,309 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY5MzgwfQ.SWw6TZKiWEAVyFodo66TD2hnIwcxKpMN74GQcHHS0eU', False, True, False, False, datetime.datetime(2025, 6, 19, 16, 43, 0, 167000))
+2025-06-19 13:59:57,387 INFO:[Depuración] Tokens candidatos a eliminar: 2
+2025-06-19 13:59:57,387 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY5MzgwfQ.SWw6TZKiWEAVyFodo66TD2hnIwcxKpMN74GQcHHS0eU', False, True, False, False, datetime.datetime(2025, 6, 19, 16, 43, 0, 167000))
+2025-06-19 13:59:57,387 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzY2MTc1fQ.HzsTvzmVtNMChsQYz22z4tcYaxmV0e1bkTAtUOiTg_w', True, False, False, True, datetime.datetime(2025, 6, 19, 16, 44, 35, 480000))
+2025-06-19 13:59:57,415 INFO:Tokens eliminados: 2
+2025-06-19 13:59:57,415 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:00:57 -04)" executed successfully
+2025-06-19 14:00:57,139 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:01:57 -04)" (scheduled at 2025-06-19 14:00:57.132691-04:00)
+2025-06-19 14:00:57,140 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask)
+2025-06-19 14:00:57,174 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:00:57,177 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:00:57,181 INFO:Tokens eliminados: 0
+2025-06-19 14:00:57,182 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:01:57 -04)" executed successfully
+2025-06-19 14:01:57,146 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:02:57 -04)" (scheduled at 2025-06-19 14:01:57.132691-04:00)
+2025-06-19 14:01:57,148 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask)
+2025-06-19 14:01:57,172 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:01:57,172 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwNzcwfQ.z8WXVU1LilQkdhFWBtxtqBP9d1lzili08zOrTKm2hB0', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 1, 10, 187000))
+2025-06-19 14:01:57,175 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:01:57,178 INFO:Tokens eliminados: 0
+2025-06-19 14:01:57,180 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:02:57 -04)" executed successfully
+2025-06-19 14:02:57,143 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:03:57 -04)" (scheduled at 2025-06-19 14:02:57.132691-04:00)
+2025-06-19 14:02:57,143 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask)
+2025-06-19 14:02:57,147 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:02:57,147 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwODM3fQ.zzlMqsBxhHVU5Cv1N9vA7aqp4yZGgzjjDed8sWTG41c', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 2, 17, 300000))
+2025-06-19 14:02:57,147 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwNzcwfQ.z8WXVU1LilQkdhFWBtxtqBP9d1lzili08zOrTKm2hB0', False, False, False, True, datetime.datetime(2025, 6, 19, 18, 1, 10, 187000))
+2025-06-19 14:02:57,151 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:02:57,154 INFO:Tokens eliminados: 0
+2025-06-19 14:02:57,155 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:03:57 -04)" executed successfully
+2025-06-19 14:04:25,063 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 14:04:25,063 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 14:04:25,063 INFO:Scheduler started
+2025-06-19 14:05:25,070 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:05:25 -04)" (scheduled at 2025-06-19 14:05:25.063252-04:00)
+2025-06-19 14:05:25,072 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:05:25,107 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:05:25,107 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwODM3fQ.zzlMqsBxhHVU5Cv1N9vA7aqp4yZGgzjjDed8sWTG41c', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 2, 17, 300000))
+2025-06-19 14:05:25,108 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwNzcwfQ.z8WXVU1LilQkdhFWBtxtqBP9d1lzili08zOrTKm2hB0', False, False, False, True, datetime.datetime(2025, 6, 19, 18, 1, 10, 187000))
+2025-06-19 14:05:25,113 INFO:[Depuración] Tokens candidatos a eliminar: 1
+2025-06-19 14:05:25,113 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwNzcwfQ.z8WXVU1LilQkdhFWBtxtqBP9d1lzili08zOrTKm2hB0', False, False, False, True, datetime.datetime(2025, 6, 19, 18, 1, 10, 187000))
+2025-06-19 14:05:25,117 INFO:Tokens eliminados: 1
+2025-06-19 14:05:25,119 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:06:25 -04)" executed successfully
+2025-06-19 14:08:21,833 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 14:08:21,834 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 14:08:21,834 INFO:Scheduler started
+2025-06-19 14:09:21,848 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:09:21 -04)" (scheduled at 2025-06-19 14:09:21.833147-04:00)
+2025-06-19 14:09:21,850 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:09:21,882 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:09:21,882 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwODM3fQ.zzlMqsBxhHVU5Cv1N9vA7aqp4yZGgzjjDed8sWTG41c', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 2, 17, 300000))
+2025-06-19 14:09:21,885 INFO:[Depuración] Tokens candidatos a eliminar: 1
+2025-06-19 14:09:21,885 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcwODM3fQ.zzlMqsBxhHVU5Cv1N9vA7aqp4yZGgzjjDed8sWTG41c', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 2, 17, 300000))
+2025-06-19 14:09:21,888 INFO:Tokens eliminados: 1
+2025-06-19 14:09:21,890 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:10:21 -04)" executed successfully
+2025-06-19 14:10:21,846 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:11:21 -04)" (scheduled at 2025-06-19 14:10:21.833147-04:00)
+2025-06-19 14:10:21,848 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:10:21,850 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:10:21,850 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMjkzfQ.t7AtlP3Dyt3NJ1OCbzK7CmUwQrthem82DirwE-WAGm0', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 9, 53, 330000))
+2025-06-19 14:10:21,853 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:10:21,855 INFO:Tokens eliminados: 0
+2025-06-19 14:10:21,857 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:11:21 -04)" executed successfully
+2025-06-19 14:11:21,838 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:12:21 -04)" (scheduled at 2025-06-19 14:11:21.833147-04:00)
+2025-06-19 14:11:21,840 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:11:21,843 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:11:21,844 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMzU5fQ.0fyNbhNasV7Xdn8Hl3RxFqYVTfVCBybpKQl99bg1q4o', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 10, 59, 927000))
+2025-06-19 14:11:21,844 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMjkzfQ.t7AtlP3Dyt3NJ1OCbzK7CmUwQrthem82DirwE-WAGm0', False, False, False, True, datetime.datetime(2025, 6, 19, 18, 9, 53, 330000))
+2025-06-19 14:11:21,846 INFO:[Depuración] Tokens candidatos a eliminar: 1
+2025-06-19 14:11:21,846 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMjkzfQ.t7AtlP3Dyt3NJ1OCbzK7CmUwQrthem82DirwE-WAGm0', False, False, False, True, datetime.datetime(2025, 6, 19, 18, 9, 53, 330000))
+2025-06-19 14:11:21,849 INFO:Tokens eliminados: 1
+2025-06-19 14:11:21,850 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:12:21 -04)" executed successfully
+2025-06-19 14:12:21,840 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:13:21 -04)" (scheduled at 2025-06-19 14:12:21.833147-04:00)
+2025-06-19 14:12:21,841 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:12:21,896 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:12:21,896 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMzU5fQ.0fyNbhNasV7Xdn8Hl3RxFqYVTfVCBybpKQl99bg1q4o', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 10, 59, 927000))
+2025-06-19 14:12:21,899 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:12:21,901 INFO:Tokens eliminados: 0
+2025-06-19 14:12:21,903 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:13:21 -04)" executed successfully
+2025-06-19 14:13:21,833 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:14:21 -04)" (scheduled at 2025-06-19 14:13:21.833147-04:00)
+2025-06-19 14:13:21,834 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:13:21,926 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:13:21,926 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMzU5fQ.0fyNbhNasV7Xdn8Hl3RxFqYVTfVCBybpKQl99bg1q4o', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 10, 59, 927000))
+2025-06-19 14:13:21,929 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:13:21,931 INFO:Tokens eliminados: 0
+2025-06-19 14:13:21,933 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:14:21 -04)" executed successfully
+2025-06-19 14:17:40,036 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 14:17:40,036 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 14:17:40,037 INFO:Scheduler started
+2025-06-19 14:18:40,049 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:18:40 -04)" (scheduled at 2025-06-19 14:18:40.036541-04:00)
+2025-06-19 14:18:40,051 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:18:40,058 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:18:40,058 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxNzY4fQ.COlh4C63gjeKTKAC2OjemUPoFKmF9PidgZiGYNYFP2E', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 17, 48, 757000))
+2025-06-19 14:18:40,058 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMzU5fQ.0fyNbhNasV7Xdn8Hl3RxFqYVTfVCBybpKQl99bg1q4o', False, False, False, True, datetime.datetime(2025, 6, 19, 18, 10, 59, 927000))
+2025-06-19 14:18:40,061 INFO:[Depuración] Tokens candidatos a eliminar: 1
+2025-06-19 14:18:40,061 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxMzU5fQ.0fyNbhNasV7Xdn8Hl3RxFqYVTfVCBybpKQl99bg1q4o', False, False, False, True, datetime.datetime(2025, 6, 19, 18, 10, 59, 927000))
+2025-06-19 14:18:40,064 INFO:Tokens eliminados: 1
+2025-06-19 14:18:40,065 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:19:40 -04)" executed successfully
+2025-06-19 14:19:40,047 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:20:40 -04)" (scheduled at 2025-06-19 14:19:40.036541-04:00)
+2025-06-19 14:19:40,048 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:19:40,075 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:19:40,075 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxNzY4fQ.COlh4C63gjeKTKAC2OjemUPoFKmF9PidgZiGYNYFP2E', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 17, 48, 757000))
+2025-06-19 14:19:40,078 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:19:40,080 INFO:Tokens eliminados: 0
+2025-06-19 14:19:40,082 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:20:40 -04)" executed successfully
+2025-06-19 14:20:40,046 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:21:40 -04)" (scheduled at 2025-06-19 14:20:40.036541-04:00)
+2025-06-19 14:20:40,047 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:20:40,083 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:20:40,083 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxNzY4fQ.COlh4C63gjeKTKAC2OjemUPoFKmF9PidgZiGYNYFP2E', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 17, 48, 757000))
+2025-06-19 14:20:40,085 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:20:40,087 INFO:Tokens eliminados: 0
+2025-06-19 14:20:40,088 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:21:40 -04)" executed successfully
+2025-06-19 14:21:40,039 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:22:40 -04)" (scheduled at 2025-06-19 14:21:40.036541-04:00)
+2025-06-19 14:21:40,041 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:21:40,080 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:21:40,080 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxNzY4fQ.COlh4C63gjeKTKAC2OjemUPoFKmF9PidgZiGYNYFP2E', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 17, 48, 757000))
+2025-06-19 14:21:40,084 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:21:40,086 INFO:Tokens eliminados: 0
+2025-06-19 14:21:40,087 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:22:40 -04)" executed successfully
+2025-06-19 14:22:40,040 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:23:40 -04)" (scheduled at 2025-06-19 14:22:40.036541-04:00)
+2025-06-19 14:22:40,042 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:22:40,095 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:22:40,096 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxNzY4fQ.COlh4C63gjeKTKAC2OjemUPoFKmF9PidgZiGYNYFP2E', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 17, 48, 757000))
+2025-06-19 14:22:40,098 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:22:40,100 INFO:Tokens eliminados: 0
+2025-06-19 14:22:40,102 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:23:40 -04)" executed successfully
+2025-06-19 14:23:40,049 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:24:40 -04)" (scheduled at 2025-06-19 14:23:40.036541-04:00)
+2025-06-19 14:23:40,049 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:23:40,085 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:23:40,085 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxNzY4fQ.COlh4C63gjeKTKAC2OjemUPoFKmF9PidgZiGYNYFP2E', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 17, 48, 757000))
+2025-06-19 14:23:40,088 INFO:[Depuración] Tokens candidatos a eliminar: 1
+2025-06-19 14:23:40,088 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzcxNzY4fQ.COlh4C63gjeKTKAC2OjemUPoFKmF9PidgZiGYNYFP2E', True, False, False, True, datetime.datetime(2025, 6, 19, 18, 17, 48, 757000))
+2025-06-19 14:23:40,091 INFO:Tokens eliminados: 1
+2025-06-19 14:23:40,092 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:24:40 -04)" executed successfully
+2025-06-19 14:24:40,038 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:25:40 -04)" (scheduled at 2025-06-19 14:24:40.036541-04:00)
+2025-06-19 14:24:40,039 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:24:40,079 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:24:40,082 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:24:40,086 INFO:Tokens eliminados: 0
+2025-06-19 14:24:40,088 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:25:40 -04)" executed successfully
+2025-06-19 14:25:40,038 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:26:40 -04)" (scheduled at 2025-06-19 14:25:40.036541-04:00)
+2025-06-19 14:25:40,040 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:25:40,139 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:25:40,142 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:25:40,145 INFO:Tokens eliminados: 0
+2025-06-19 14:25:40,146 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:26:40 -04)" executed successfully
+2025-06-19 14:26:40,037 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:27:40 -04)" (scheduled at 2025-06-19 14:26:40.036541-04:00)
+2025-06-19 14:26:40,039 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:26:40,071 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:26:40,074 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:26:40,077 INFO:Tokens eliminados: 0
+2025-06-19 14:26:40,078 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:27:40 -04)" executed successfully
+2025-06-19 14:27:40,044 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:28:40 -04)" (scheduled at 2025-06-19 14:27:40.036541-04:00)
+2025-06-19 14:27:40,045 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:27:47,980 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:27:47,990 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:27:47,998 INFO:Tokens eliminados: 0
+2025-06-19 14:27:48,000 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:28:40 -04)" executed successfully
+2025-06-19 14:28:40,045 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:29:40 -04)" (scheduled at 2025-06-19 14:28:40.036541-04:00)
+2025-06-19 14:28:40,046 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:28:40,048 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:28:40,048 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:28:40,050 INFO:Tokens eliminados: 0
+2025-06-19 14:28:40,051 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:29:40 -04)" executed successfully
+2025-06-19 14:29:40,041 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:30:40 -04)" (scheduled at 2025-06-19 14:29:40.036541-04:00)
+2025-06-19 14:29:40,042 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:29:40,073 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:29:40,076 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:29:40,078 INFO:Tokens eliminados: 0
+2025-06-19 14:29:40,079 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:30:40 -04)" executed successfully
+2025-06-19 14:30:40,037 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:31:40 -04)" (scheduled at 2025-06-19 14:30:40.036541-04:00)
+2025-06-19 14:30:40,038 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:30:40,069 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:30:40,072 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:30:40,075 INFO:Tokens eliminados: 0
+2025-06-19 14:30:40,076 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:31:40 -04)" executed successfully
+2025-06-19 14:31:40,041 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:32:40 -04)" (scheduled at 2025-06-19 14:31:40.036541-04:00)
+2025-06-19 14:31:40,042 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:31:40,057 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:31:40,060 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:31:40,061 INFO:Tokens eliminados: 0
+2025-06-19 14:31:40,063 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:32:40 -04)" executed successfully
+2025-06-19 14:32:40,047 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:33:40 -04)" (scheduled at 2025-06-19 14:32:40.036541-04:00)
+2025-06-19 14:32:40,048 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:32:40,121 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:32:40,124 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:32:40,126 INFO:Tokens eliminados: 0
+2025-06-19 14:32:40,128 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:33:40 -04)" executed successfully
+2025-06-19 14:33:40,038 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:34:40 -04)" (scheduled at 2025-06-19 14:33:40.036541-04:00)
+2025-06-19 14:33:40,040 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:33:40,076 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:33:40,079 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:33:40,081 INFO:Tokens eliminados: 0
+2025-06-19 14:33:40,083 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:34:40 -04)" executed successfully
+2025-06-19 14:34:40,050 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:35:40 -04)" (scheduled at 2025-06-19 14:34:40.036541-04:00)
+2025-06-19 14:34:40,051 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:34:40,121 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:34:40,123 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:34:40,126 INFO:Tokens eliminados: 0
+2025-06-19 14:34:40,127 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:35:40 -04)" executed successfully
+2025-06-19 14:35:40,038 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:36:40 -04)" (scheduled at 2025-06-19 14:35:40.036541-04:00)
+2025-06-19 14:35:40,040 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:35:40,111 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:35:40,114 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:35:40,117 INFO:Tokens eliminados: 0
+2025-06-19 14:35:40,118 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:36:40 -04)" executed successfully
+2025-06-19 14:36:40,050 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:37:40 -04)" (scheduled at 2025-06-19 14:36:40.036541-04:00)
+2025-06-19 14:36:40,052 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:36:40,092 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:36:40,096 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:36:40,098 INFO:Tokens eliminados: 0
+2025-06-19 14:36:40,101 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:37:40 -04)" executed successfully
+2025-06-19 14:37:40,037 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:38:40 -04)" (scheduled at 2025-06-19 14:37:40.036541-04:00)
+2025-06-19 14:37:40,039 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:37:40,061 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:37:40,063 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:37:40,068 INFO:Tokens eliminados: 0
+2025-06-19 14:37:40,069 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:38:40 -04)" executed successfully
+2025-06-19 14:38:40,041 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:39:40 -04)" (scheduled at 2025-06-19 14:38:40.036541-04:00)
+2025-06-19 14:38:40,042 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:38:49,105 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:38:49,110 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:38:49,114 INFO:Tokens eliminados: 0
+2025-06-19 14:38:49,116 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:39:40 -04)" executed successfully
+2025-06-19 14:39:40,047 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:40:40 -04)" (scheduled at 2025-06-19 14:39:40.036541-04:00)
+2025-06-19 14:39:40,049 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:39:40,051 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:39:40,052 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:39:40,053 INFO:Tokens eliminados: 0
+2025-06-19 14:39:40,055 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:40:40 -04)" executed successfully
+2025-06-19 14:40:40,046 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:41:40 -04)" (scheduled at 2025-06-19 14:40:40.036541-04:00)
+2025-06-19 14:40:40,047 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:40:40,122 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:40:40,127 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:40:40,130 INFO:Tokens eliminados: 0
+2025-06-19 14:40:40,131 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:41:40 -04)" executed successfully
+2025-06-19 14:41:40,045 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:42:40 -04)" (scheduled at 2025-06-19 14:41:40.036541-04:00)
+2025-06-19 14:41:40,046 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:41:40,114 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:41:40,116 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:41:40,119 INFO:Tokens eliminados: 0
+2025-06-19 14:41:40,120 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:42:40 -04)" executed successfully
+2025-06-19 14:42:40,052 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:43:40 -04)" (scheduled at 2025-06-19 14:42:40.036541-04:00)
+2025-06-19 14:42:40,053 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:42:40,141 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:42:40,145 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:42:40,150 INFO:Tokens eliminados: 0
+2025-06-19 14:42:40,162 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:43:40 -04)" executed successfully
+2025-06-19 14:43:40,038 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:44:40 -04)" (scheduled at 2025-06-19 14:43:40.036541-04:00)
+2025-06-19 14:43:40,039 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:43:40,070 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:43:40,072 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:43:40,074 INFO:Tokens eliminados: 0
+2025-06-19 14:43:40,076 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:44:40 -04)" executed successfully
+2025-06-19 14:44:40,043 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:45:40 -04)" (scheduled at 2025-06-19 14:44:40.036541-04:00)
+2025-06-19 14:44:40,044 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:44:40,087 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:44:40,090 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:44:40,092 INFO:Tokens eliminados: 0
+2025-06-19 14:44:40,094 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:45:40 -04)" executed successfully
+2025-06-19 14:45:40,038 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:46:40 -04)" (scheduled at 2025-06-19 14:45:40.036541-04:00)
+2025-06-19 14:45:40,039 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:45:40,078 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:45:40,081 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:45:40,084 INFO:Tokens eliminados: 0
+2025-06-19 14:45:40,086 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:46:40 -04)" executed successfully
+2025-06-19 14:46:40,045 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:47:40 -04)" (scheduled at 2025-06-19 14:46:40.036541-04:00)
+2025-06-19 14:46:40,046 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:46:40,103 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:46:40,109 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:46:40,111 INFO:Tokens eliminados: 0
+2025-06-19 14:46:40,113 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:47:40 -04)" executed successfully
+2025-06-19 14:47:40,040 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:48:40 -04)" (scheduled at 2025-06-19 14:47:40.036541-04:00)
+2025-06-19 14:47:40,042 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:47:40,088 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:47:40,091 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:47:40,095 INFO:Tokens eliminados: 0
+2025-06-19 14:47:40,096 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:48:40 -04)" executed successfully
+2025-06-19 14:48:40,045 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:49:40 -04)" (scheduled at 2025-06-19 14:48:40.036541-04:00)
+2025-06-19 14:48:40,047 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:48:50,129 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:48:50,135 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:48:50,138 INFO:Tokens eliminados: 0
+2025-06-19 14:48:50,140 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:49:40 -04)" executed successfully
+2025-06-19 14:49:40,051 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:50:40 -04)" (scheduled at 2025-06-19 14:49:40.036541-04:00)
+2025-06-19 14:49:40,052 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:49:40,055 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:49:40,055 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:49:40,057 INFO:Tokens eliminados: 0
+2025-06-19 14:49:40,057 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:50:40 -04)" executed successfully
+2025-06-19 14:50:40,045 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:51:40 -04)" (scheduled at 2025-06-19 14:50:40.036541-04:00)
+2025-06-19 14:50:40,047 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:50:40,121 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:50:40,123 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:50:40,125 INFO:Tokens eliminados: 0
+2025-06-19 14:50:40,126 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:51:40 -04)" executed successfully
+2025-06-19 14:51:40,041 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:52:40 -04)" (scheduled at 2025-06-19 14:51:40.036541-04:00)
+2025-06-19 14:51:40,042 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:51:40,129 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:51:40,141 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:51:40,144 INFO:Tokens eliminados: 0
+2025-06-19 14:51:40,145 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:52:40 -04)" executed successfully
+2025-06-19 14:52:40,049 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:53:40 -04)" (scheduled at 2025-06-19 14:52:40.036541-04:00)
+2025-06-19 14:52:40,050 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:52:40,080 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:52:40,083 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:52:40,085 INFO:Tokens eliminados: 0
+2025-06-19 14:52:40,087 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:53:40 -04)" executed successfully
+2025-06-19 14:53:40,048 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:54:40 -04)" (scheduled at 2025-06-19 14:53:40.036541-04:00)
+2025-06-19 14:53:40,049 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:53:40,108 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:53:40,110 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:53:40,113 INFO:Tokens eliminados: 0
+2025-06-19 14:53:40,114 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:54:40 -04)" executed successfully
+2025-06-19 14:54:40,050 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:55:40 -04)" (scheduled at 2025-06-19 14:54:40.036541-04:00)
+2025-06-19 14:54:40,050 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:54:40,083 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:54:40,085 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:54:40,087 INFO:Tokens eliminados: 0
+2025-06-19 14:54:40,088 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:55:40 -04)" executed successfully
+2025-06-19 14:55:40,044 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:56:40 -04)" (scheduled at 2025-06-19 14:55:40.036541-04:00)
+2025-06-19 14:55:40,045 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:55:40,090 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:55:40,093 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:55:40,096 INFO:Tokens eliminados: 0
+2025-06-19 14:55:40,096 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:56:40 -04)" executed successfully
+2025-06-19 14:56:40,049 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:57:40 -04)" (scheduled at 2025-06-19 14:56:40.036541-04:00)
+2025-06-19 14:56:40,050 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:56:40,125 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:56:40,128 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:56:40,131 INFO:Tokens eliminados: 0
+2025-06-19 14:56:40,132 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:57:40 -04)" executed successfully
+2025-06-19 14:57:40,048 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:58:40 -04)" (scheduled at 2025-06-19 14:57:40.036541-04:00)
+2025-06-19 14:57:40,049 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:57:40,085 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:57:40,087 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:57:40,090 INFO:Tokens eliminados: 0
+2025-06-19 14:57:40,091 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:58:40 -04)" executed successfully
+2025-06-19 14:58:40,043 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:59:40 -04)" (scheduled at 2025-06-19 14:58:40.036541-04:00)
+2025-06-19 14:58:40,045 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:58:40,127 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:58:40,127 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 14:58:40,131 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:58:40,134 INFO:Tokens eliminados: 0
+2025-06-19 14:58:40,135 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 14:59:40 -04)" executed successfully
+2025-06-19 14:59:40,046 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:00:40 -04)" (scheduled at 2025-06-19 14:59:40.036541-04:00)
+2025-06-19 14:59:40,048 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 14:59:40,126 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 14:59:40,126 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 14:59:40,130 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 14:59:40,134 INFO:Tokens eliminados: 0
+2025-06-19 14:59:40,136 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:00:40 -04)" executed successfully
+2025-06-19 15:00:40,050 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:01:40 -04)" (scheduled at 2025-06-19 15:00:40.036541-04:00)
+2025-06-19 15:00:40,051 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:00:40,097 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:00:40,097 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:00:40,100 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:00:40,102 INFO:Tokens eliminados: 0
+2025-06-19 15:00:40,103 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:01:40 -04)" executed successfully
+2025-06-19 15:01:40,046 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:02:40 -04)" (scheduled at 2025-06-19 15:01:40.036541-04:00)
+2025-06-19 15:01:40,047 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:01:40,063 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:01:40,064 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:01:40,066 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:01:40,069 INFO:Tokens eliminados: 0
+2025-06-19 15:01:40,070 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:02:40 -04)" executed successfully
+2025-06-19 15:02:40,052 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:03:40 -04)" (scheduled at 2025-06-19 15:02:40.036541-04:00)
+2025-06-19 15:02:40,053 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:02:40,060 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:02:40,061 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:02:40,062 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:02:40,065 INFO:Tokens eliminados: 0
+2025-06-19 15:02:40,066 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:03:40 -04)" executed successfully
+2025-06-19 15:03:40,044 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:04:40 -04)" (scheduled at 2025-06-19 15:03:40.036541-04:00)
+2025-06-19 15:03:40,046 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:03:40,083 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:03:40,083 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:03:40,085 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:03:40,087 INFO:Tokens eliminados: 0
+2025-06-19 15:03:40,089 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:04:40 -04)" executed successfully
+2025-06-19 15:04:40,047 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:05:40 -04)" (scheduled at 2025-06-19 15:04:40.036541-04:00)
+2025-06-19 15:04:40,050 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:04:40,088 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:04:40,088 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:04:40,091 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:04:40,097 INFO:Tokens eliminados: 0
+2025-06-19 15:04:40,100 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:05:40 -04)" executed successfully
+2025-06-19 15:05:40,050 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:06:40 -04)" (scheduled at 2025-06-19 15:05:40.036541-04:00)
+2025-06-19 15:05:40,052 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:05:40,111 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:05:40,111 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:05:40,118 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:05:40,122 INFO:Tokens eliminados: 0
+2025-06-19 15:05:40,124 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:06:40 -04)" executed successfully
+2025-06-19 15:06:40,041 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:07:40 -04)" (scheduled at 2025-06-19 15:06:40.036541-04:00)
+2025-06-19 15:06:40,044 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:06:40,151 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:06:40,151 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:06:40,155 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:06:40,159 INFO:Tokens eliminados: 0
+2025-06-19 15:06:40,161 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:07:40 -04)" executed successfully
+2025-06-19 15:07:40,047 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:08:40 -04)" (scheduled at 2025-06-19 15:07:40.036541-04:00)
+2025-06-19 15:07:40,050 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:07:40,124 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:07:40,124 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:07:40,130 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:07:40,136 INFO:Tokens eliminados: 0
+2025-06-19 15:07:40,138 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:08:40 -04)" executed successfully
+2025-06-19 15:08:40,045 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:09:40 -04)" (scheduled at 2025-06-19 15:08:40.036541-04:00)
+2025-06-19 15:08:40,047 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:08:40,072 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:08:40,073 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:08:40,078 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:08:40,084 INFO:Tokens eliminados: 0
+2025-06-19 15:08:40,086 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:09:40 -04)" executed successfully
+2025-06-19 15:09:40,041 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:10:40 -04)" (scheduled at 2025-06-19 15:09:40.036541-04:00)
+2025-06-19 15:09:40,042 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:09:40,049 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:09:40,049 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:09:40,054 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:09:40,060 INFO:Tokens eliminados: 0
+2025-06-19 15:09:40,063 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:10:40 -04)" executed successfully
+2025-06-19 15:10:40,050 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:11:40 -04)" (scheduled at 2025-06-19 15:10:40.036541-04:00)
+2025-06-19 15:10:40,052 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:10:40,090 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:10:40,091 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:10:40,096 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:10:40,101 INFO:Tokens eliminados: 0
+2025-06-19 15:10:40,103 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:11:40 -04)" executed successfully
+2025-06-19 15:11:00,150 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 15:11:00,152 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 15:11:00,152 INFO:Scheduler started
+2025-06-19 15:12:00,165 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:12:00 -04)" (scheduled at 2025-06-19 15:12:00.150338-04:00)
+2025-06-19 15:12:00,168 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:12:00,178 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:12:00,179 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:12:00,189 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:12:00,198 INFO:Tokens eliminados: 0
+2025-06-19 15:12:00,200 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:13:00 -04)" executed successfully
+2025-06-19 15:13:00,162 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:14:00 -04)" (scheduled at 2025-06-19 15:13:00.150338-04:00)
+2025-06-19 15:13:00,164 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:13:01,866 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:13:01,867 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:13:01,873 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:13:01,879 INFO:Tokens eliminados: 0
+2025-06-19 15:13:01,882 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:14:00 -04)" executed successfully
+2025-06-19 15:14:00,158 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:15:00 -04)" (scheduled at 2025-06-19 15:14:00.150338-04:00)
+2025-06-19 15:14:00,161 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:14:00,187 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:14:00,187 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:14:00,191 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:14:00,196 INFO:Tokens eliminados: 0
+2025-06-19 15:14:00,198 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:15:00 -04)" executed successfully
+2025-06-19 15:15:00,173 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:16:00 -04)" (scheduled at 2025-06-19 15:15:00.150338-04:00)
+2025-06-19 15:15:00,189 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:15:01,977 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:15:01,978 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:15:01,999 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:15:02,008 INFO:Tokens eliminados: 0
+2025-06-19 15:15:02,013 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:16:00 -04)" executed successfully
+2025-06-19 15:16:00,164 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:17:00 -04)" (scheduled at 2025-06-19 15:16:00.150338-04:00)
+2025-06-19 15:16:00,177 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:16:02,021 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:16:02,022 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:16:02,033 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:16:02,041 INFO:Tokens eliminados: 0
+2025-06-19 15:16:02,046 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:17:00 -04)" executed successfully
+2025-06-19 15:17:00,161 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:18:00 -04)" (scheduled at 2025-06-19 15:17:00.150338-04:00)
+2025-06-19 15:17:00,165 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:17:00,176 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:17:00,176 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:17:00,180 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:17:00,185 INFO:Tokens eliminados: 0
+2025-06-19 15:17:00,188 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:18:00 -04)" executed successfully
+2025-06-19 15:17:52,617 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 15:17:52,618 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 15:17:52,618 INFO:Scheduler started
+2025-06-19 15:18:01,228 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:18:08,617 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:18:52,624 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:18:52 -04)" (scheduled at 2025-06-19 15:18:52.617227-04:00)
+2025-06-19 15:18:52,626 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:18:52,658 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:18:52,658 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:18:52,664 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:18:52,668 INFO:Tokens eliminados: 0
+2025-06-19 15:18:52,670 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:19:52 -04)" executed successfully
+2025-06-19 15:19:52,685 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:20:52 -04)" (scheduled at 2025-06-19 15:19:52.617227-04:00)
+2025-06-19 15:19:52,744 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:20:02,383 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:20:02,389 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:20:02,495 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:20:02,538 INFO:Tokens eliminados: 0
+2025-06-19 15:20:02,548 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:20:52 -04)" executed successfully
+2025-06-19 15:20:52,621 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:21:52 -04)" (scheduled at 2025-06-19 15:20:52.617227-04:00)
+2025-06-19 15:20:52,626 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:20:52,815 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:20:52,815 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:20:52,821 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:20:52,831 INFO:Tokens eliminados: 0
+2025-06-19 15:20:52,836 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:21:52 -04)" executed successfully
+2025-06-19 15:21:22,837 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:21:42,360 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:21:52,625 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:22:52 -04)" (scheduled at 2025-06-19 15:21:52.617227-04:00)
+2025-06-19 15:21:52,626 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 15:21:53,070 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 15:21:53,070 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 15:21:53,084 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 15:21:53,093 INFO:Tokens eliminados: 0
+2025-06-19 15:21:53,095 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 15:22:52 -04)" executed successfully
+2025-06-19 15:21:56,700 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:04,968 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 15:27:04,968 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 15:27:04,968 INFO:Scheduler started
+2025-06-19 15:27:09,449 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:13,009 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:14,574 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:20,565 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:22,677 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:24,278 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:30,172 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:31,810 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:33,123 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 15:27:34,462 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 16:03:58,561 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 16:03:58,561 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-19 16:03:58,561 INFO:Scheduler started
+2025-06-19 16:04:27,263 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 16:04:32,260 INFO:Usuario 'admin' accedió a /EF con params: {'fecha_inicio': '2024-12-16', 'fecha_fin': '2025-06-19'}
+2025-06-19 16:04:58,564 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:04:58 -04)" (scheduled at 2025-06-19 16:04:58.561449-04:00)
+2025-06-19 16:04:58,565 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:04:58,571 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:04:58,571 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 16:04:58,573 INFO:[Depuración] Tokens candidatos a eliminar: 1
+2025-06-19 16:04:58,573 INFO:[Depuración] Token: ('admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUwMzc3NTExfQ.7R_qyhRduuTW7-rjB9glRPAEjqRJNl1wYTsN66ljO7g', True, True, False, False, datetime.datetime(2025, 6, 19, 18, 58, 31, 467000))
+2025-06-19 16:04:58,577 INFO:Tokens eliminados: 1
+2025-06-19 16:04:58,579 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:05:58 -04)" executed successfully
+2025-06-19 16:05:58,574 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:06:58 -04)" (scheduled at 2025-06-19 16:05:58.561449-04:00)
+2025-06-19 16:05:58,576 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:05:58,607 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:05:58,610 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:05:58,612 INFO:Tokens eliminados: 0
+2025-06-19 16:05:58,614 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:06:58 -04)" executed successfully
+2025-06-19 16:06:58,569 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:07:58 -04)" (scheduled at 2025-06-19 16:06:58.561449-04:00)
+2025-06-19 16:06:58,569 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:06:58,593 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:06:58,595 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:06:58,597 INFO:Tokens eliminados: 0
+2025-06-19 16:06:58,599 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:07:58 -04)" executed successfully
+2025-06-19 16:07:58,574 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:08:58 -04)" (scheduled at 2025-06-19 16:07:58.561449-04:00)
+2025-06-19 16:07:58,575 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:07:58,736 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:07:58,738 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:07:58,740 INFO:Tokens eliminados: 0
+2025-06-19 16:07:58,741 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:08:58 -04)" executed successfully
+2025-06-19 16:08:58,573 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:09:58 -04)" (scheduled at 2025-06-19 16:08:58.561449-04:00)
+2025-06-19 16:08:58,574 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:08:58,610 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:08:58,613 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:08:58,617 INFO:Tokens eliminados: 0
+2025-06-19 16:08:58,618 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:09:58 -04)" executed successfully
+2025-06-19 16:09:58,561 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:10:58 -04)" (scheduled at 2025-06-19 16:09:58.561449-04:00)
+2025-06-19 16:09:58,563 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:09:58,603 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:09:58,605 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:09:58,607 INFO:Tokens eliminados: 0
+2025-06-19 16:09:58,608 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:10:58 -04)" executed successfully
+2025-06-19 16:10:58,564 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:11:58 -04)" (scheduled at 2025-06-19 16:10:58.561449-04:00)
+2025-06-19 16:10:58,565 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:10:58,610 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:10:58,612 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:10:58,614 INFO:Tokens eliminados: 0
+2025-06-19 16:10:58,615 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:11:58 -04)" executed successfully
+2025-06-19 16:11:58,568 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:12:58 -04)" (scheduled at 2025-06-19 16:11:58.561449-04:00)
+2025-06-19 16:11:58,570 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:11:58,573 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:11:58,576 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:11:58,578 INFO:Tokens eliminados: 0
+2025-06-19 16:11:58,582 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:12:58 -04)" executed successfully
+2025-06-19 16:12:58,568 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:13:58 -04)" (scheduled at 2025-06-19 16:12:58.561449-04:00)
+2025-06-19 16:12:58,570 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-19 16:12:58,619 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-19 16:12:58,623 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-19 16:12:58,627 INFO:Tokens eliminados: 0
+2025-06-19 16:12:58,628 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-19 16:13:58 -04)" executed successfully
+2025-06-20 11:59:11,754 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-20 11:59:11,755 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-20 11:59:11,755 INFO:Scheduler started
+2025-06-20 12:00:11,769 INFO:Running job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-20 12:00:11 -04)" (scheduled at 2025-06-20 12:00:11.754735-04:00)
+2025-06-20 12:00:11,771 INFO:[Depuración] Usando lógica de expiración igual a la API original (Flask) + active=0
+2025-06-20 12:00:11,793 INFO:[Depuración] Todos los tokens en la tabla:
+2025-06-20 12:00:11,813 INFO:[Depuración] Tokens candidatos a eliminar: 0
+2025-06-20 12:00:11,816 INFO:Tokens eliminados: 0
+2025-06-20 12:00:11,818 INFO:Job "delete_expired_tokens_job (trigger: interval[0:01:00], next run at: 2025-06-20 12:01:11 -04)" executed successfully
+2025-06-21 11:31:23,858 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-21 11:31:23,858 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-06-21 11:31:23,859 INFO:Scheduler started
+2025-07-10 17:34:18,760 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 17:34:18,764 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-07-10 17:34:18,765 INFO:Scheduler started
+2025-07-10 17:38:33,018 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 17:38:33,021 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-07-10 17:38:33,021 INFO:Scheduler started
+2025-07-10 17:40:40,852 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 17:40:40,854 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-07-10 17:40:40,855 INFO:Scheduler started
+2025-07-10 17:41:40,232 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 17:41:40,236 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-07-10 17:41:40,236 INFO:Scheduler started
+2025-07-10 17:48:11,632 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 17:48:11,635 INFO:Added job "delete_expired_tokens_job" to job store "default"
+2025-07-10 17:48:11,635 INFO:Scheduler started

@@ -1,0 +1,19 @@
+2025-05-18 18:30:16,210 INFO:Archivo de log renombrado a: c:\Users\Admin\pythonp\src\san5\APIFE\data\api20250518_183016..log
+2025-05-18 18:30:16,557 INFO:Configuration loaded from config\config.json
+2025-05-18 18:30:26,655 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-18 18:30:26,656 DEBUG:Looking up time zone info from registry
+2025-05-18 18:30:26,658 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-18 18:30:26,659 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-18 18:30:26,659 INFO:Scheduler started
+2025-05-18 18:30:26,660 DEBUG:Looking for jobs to run
+2025-05-18 18:30:26,660 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8001
+2025-05-18 18:30:26,660 DEBUG:Next wakeup is due at 2025-05-18 19:30:26.658664-04:00 (in 3599.997947 seconds)
+2025-05-18 18:30:26,667 DEBUG:Using selector: SelectSelector
+2025-05-18 18:30:26,739 INFO:Started server process [5540]
+2025-05-18 18:30:26,739 INFO:Waiting for application startup.
+2025-05-18 18:30:26,739 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-18 18:30:26,740 INFO:Application startup complete.
+2025-05-18 18:30:26,740 INFO:Uvicorn running on https://0.0.0.0:8001 (Press CTRL+C to quit)
+2025-05-18 18:30:28,303 ERROR:2025-05-18 18:30:28,302 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-18 18:30:28,302 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-18 18:30:28,825 INFO:127.0.0.1:49362 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31 HTTP/1.1" 200

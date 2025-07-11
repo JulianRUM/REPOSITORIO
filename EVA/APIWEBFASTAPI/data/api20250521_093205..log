@@ -1,0 +1,37 @@
+2025-05-21 08:46:12,583 INFO:Configuration loaded from config\config.json
+2025-05-21 08:46:12,815 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-21 08:46:12,815 DEBUG:Looking up time zone info from registry
+2025-05-21 08:46:12,826 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-21 08:46:12,826 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-21 08:46:12,827 INFO:Scheduler started
+2025-05-21 08:46:12,827 DEBUG:Looking for jobs to run
+2025-05-21 08:46:12,827 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-21 08:46:12,828 DEBUG:Next wakeup is due at 2025-05-21 09:46:12.826225-04:00 (in 3599.998994 seconds)
+2025-05-21 08:46:12,833 DEBUG:Using selector: SelectSelector
+2025-05-21 08:46:12,991 INFO:Started server process [32448]
+2025-05-21 08:46:12,992 INFO:Waiting for application startup.
+2025-05-21 08:46:12,992 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-21 08:46:12,992 INFO:Application startup complete.
+2025-05-21 08:46:12,992 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-05-21 08:46:17,992 ERROR:2025-05-21 08:46:17,992 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:46:17,992 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:46:18,230 ERROR:2025-05-21 08:46:18,230 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:46:18,230 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:46:18,462 INFO:127.0.0.1:52782 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-21 08:46:58,890 ERROR:2025-05-21 08:46:58,890 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:46:58,890 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:46:59,266 INFO:127.0.0.1:53260 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=5 HTTP/1.1" 200
+2025-05-21 08:53:57,181 ERROR:2025-05-21 08:53:57,181 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:53:57,181 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:53:57,572 INFO:127.0.0.1:58120 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=5 HTTP/1.1" 200
+2025-05-21 08:55:08,553 ERROR:2025-05-21 08:55:08,553 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:55:08,553 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:55:08,791 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-21 08:55:08,792 INFO:127.0.0.1:58963 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=0 HTTP/1.1" 400
+2025-05-21 08:55:17,710 ERROR:2025-05-21 08:55:17,709 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:55:17,709 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:55:17,723 ERROR:Error de validación: No se encontraron resultados para los filtros especificados
+2025-05-21 08:55:17,725 INFO:127.0.0.1:58969 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=4 HTTP/1.1" 400
+2025-05-21 08:55:27,702 ERROR:2025-05-21 08:55:27,702 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:55:27,702 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-21 08:55:27,904 INFO:127.0.0.1:59195 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200

@@ -1,0 +1,38 @@
+2025-05-23 11:59:10,383 INFO:Configuration loaded from config\config.json
+2025-05-23 11:59:10,525 INFO:Tablas creadas exitosamente o ya existen.
+2025-05-23 11:59:10,525 DEBUG:Looking up time zone info from registry
+2025-05-23 11:59:10,527 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-23 11:59:10,527 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-23 11:59:10,528 INFO:Scheduler started
+2025-05-23 11:59:10,528 DEBUG:Looking for jobs to run
+2025-05-23 11:59:10,528 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-23 11:59:10,528 DEBUG:Next wakeup is due at 2025-05-23 12:59:10.527450-04:00 (in 3599.998739 seconds)
+2025-05-23 11:59:10,533 DEBUG:Using selector: SelectSelector
+2025-05-23 11:59:10,582 INFO:Started server process [5940]
+2025-05-23 11:59:10,582 INFO:Waiting for application startup.
+2025-05-23 11:59:10,583 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-23 11:59:10,583 INFO:Application startup complete.
+2025-05-23 11:59:10,584 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
+2025-05-23 11:59:11,806 INFO:127.0.0.1:55242 - "POST /login HTTP/1.1" 401
+2025-05-23 11:59:27,615 INFO:127.0.0.1:55426 - "POST /login HTTP/1.1" 401
+2025-05-23 11:59:38,949 INFO:127.0.0.1:55555 - "POST /login HTTP/1.1" 401
+2025-05-23 12:00:16,040 ERROR:2025-05-23 12:00:16,040 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-23 12:00:16,040 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-23 12:00:16,041 INFO:127.0.0.1:55975 - "POST /login HTTP/1.1" 200
+2025-05-23 12:59:10,528 DEBUG:Looking for jobs to run
+2025-05-23 12:59:10,529 INFO:Running job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-23 12:59:10 -04)" (scheduled at 2025-05-23 12:59:10.527450-04:00)
+2025-05-23 12:59:10,529 DEBUG:Next wakeup is due at 2025-05-23 13:59:10.527450-04:00 (in 3599.997839 seconds)
+2025-05-23 12:59:10,555 INFO:Tokens eliminados: 1
+2025-05-23 12:59:10,555 INFO:Job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-23 13:59:10 -04)" executed successfully
+2025-05-23 13:59:10,538 DEBUG:Looking for jobs to run
+2025-05-23 13:59:10,538 DEBUG:Next wakeup is due at 2025-05-23 14:59:10.527450-04:00 (in 3599.989073 seconds)
+2025-05-23 13:59:10,538 INFO:Running job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-23 14:59:10 -04)" (scheduled at 2025-05-23 13:59:10.527450-04:00)
+2025-05-23 13:59:10,557 INFO:Tokens eliminados: 0
+2025-05-23 13:59:10,557 INFO:Job "delete_expired_tokens (trigger: interval[1:00:00], next run at: 2025-05-23 14:59:10 -04)" executed successfully
+2025-05-23 14:35:47,553 ERROR:2025-05-23 14:35:47,552 - INFO - Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-23 14:35:47,552 INFO:Usuario admin con RNC: 123456789 inició sesión y se generó un token.
+2025-05-23 14:35:47,556 INFO:127.0.0.1:63113 - "POST /login HTTP/1.1" 200
+2025-05-23 14:39:50,389 ERROR:2025-05-23 14:39:50,388 - INFO - Acceso a EstadosFiscales con autorización válida
+2025-05-23 14:39:50,388 INFO:Acceso a EstadosFiscales con autorización válida
+2025-05-23 14:39:50,757 INFO:192.168.110.95:58742 - "GET /EF?fecha_inicio=2024-12-16&fecha_fin=2025-01-31&caja=A&estado_fiscal=99 HTTP/1.1" 200
+2025-05-23 14:39:50,849 INFO:192.168.110.95:58742 - "GET /favicon.ico HTTP/1.1" 404

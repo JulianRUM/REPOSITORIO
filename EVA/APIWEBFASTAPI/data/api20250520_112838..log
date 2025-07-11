@@ -1,0 +1,16 @@
+2025-05-20 10:58:37,043 INFO:Configuration loaded from config\config.json
+2025-05-20 10:58:37,141 INFO:Error al crear tablas: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "lhfe" requested by the login. The login failed. (4060) (SQLDriverConnect); [42000] [Microsoft][ODBC SQL Server Driver]Atributo de cadena de conexión no válido (0); [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "lhfe" requested by the login. The login failed. (4060); [42000] [Microsoft][ODBC SQL Server Driver]Atributo de cadena de conexión no válido (0)')
+2025-05-20 10:58:37,141 INFO:(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-20 10:58:37,141 DEBUG:Looking up time zone info from registry
+2025-05-20 10:58:37,157 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-20 10:58:37,158 INFO:Added job "delete_expired_tokens" to job store "default"
+2025-05-20 10:58:37,158 INFO:Scheduler started
+2025-05-20 10:58:37,158 DEBUG:Looking for jobs to run
+2025-05-20 10:58:37,158 INFO:Iniciando Uvicorn con SSL en https://0.0.0.0:8003
+2025-05-20 10:58:37,159 DEBUG:Next wakeup is due at 2025-05-20 11:58:37.157207-04:00 (in 3599.997989 seconds)
+2025-05-20 10:58:37,163 DEBUG:Using selector: SelectSelector
+2025-05-20 10:58:37,311 INFO:Started server process [24176]
+2025-05-20 10:58:37,311 INFO:Waiting for application startup.
+2025-05-20 10:58:37,311 INFO:ASGI 'lifespan' protocol appears unsupported.
+2025-05-20 10:58:37,311 INFO:Application startup complete.
+2025-05-20 10:58:37,312 INFO:Uvicorn running on https://0.0.0.0:8003 (Press CTRL+C to quit)
